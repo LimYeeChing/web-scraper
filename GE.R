@@ -1,8 +1,8 @@
 library(rvest)
 
-OUR_PRODUCTS_URL <- "https://www.greateasternlife.com/my/en/personal-insurance/our-products.html"
+PRODUCTS_URL <- "https://www.greateasternlife.com/my/en/personal-insurance/our-products.html" 
 
-homepage <- read_html(OUR_PRODUCTS_URL)
+homepage <- read_html(PRODUCTS_URL)
 
 results <- data.frame(matrix(nrow = 0, ncol = 3))
 colnames(results) <- c("product_type", "product_name", "product_description")
@@ -19,15 +19,11 @@ url <-
   html_elements("a.solution-item") %>%
   html_attr("href")
 
-# The 'takaful' category produces an edge case, as it's at www.greateasterntakaful.com
+url[startsWith(url, "/")] <- paste0("https://www.greateasternlife.com", url[startsWith(url, "/")])
 
-url <- paste0("https://www.greateasternlife.com", url[startsWith(url, "/")])
+product_types <- data.frame(product_type, url)
 
-# Removing the last product_type -- this solution only works under the assumption that 'takaful' is the last item, change in future if needed
-
-product_types <- data.frame(product_type[1:length(url)], url)
-
-# Loop through all product types, visiting each type's page and scraping information
+# Loop through all product types, visiting each type's page and scraping info
 
 for (i in 1:nrow(product_types)) {
   html <- read_html(product_types$url[i])
@@ -37,19 +33,22 @@ for (i in 1:nrow(product_types)) {
   product_name <-
     html %>% 
     html_elements(".ge-headline2.ge-headline--red") %>%
-    html_text2() 
-  
+    html_text2()
+
   # Scrape product descriptions
-  
+ 
   product_description <-
-    html %>% 
+    html %>%
     html_elements(".solution-detail") %>%
     html_text2()
   
-  results <- rbind(results, data.frame(product_type = product_types$product_type[i], product_name, product_description))
+  if (length(product_name) != 0 && length(product_description) != 0){
+    results <- rbind(results, data.frame(product_type = product_types$product_type[i], product_name, product_description)) 
+  }
   
 }
 
 # Write results to .csv file
 
-write.csv(results, file = "results/GE.csv", row.names = FALSE)
+write.csv(results, file = "results/test.csv", row.names = FALSE)
+
