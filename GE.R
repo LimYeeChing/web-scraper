@@ -1,5 +1,7 @@
 library(rvest)
 
+OUTPUT_FILE_PATH <- "results/GE.csv"
+
 PRODUCTS_URL <- "https://www.greateasternlife.com/my/en/personal-insurance/our-products.html" 
 
 homepage <- read_html(PRODUCTS_URL)
@@ -50,5 +52,5 @@ for (i in 1:nrow(product_types)) {
 
 # Write results to .csv file
 
-write.csv(results, file = "results/test.csv", row.names = FALSE)
+write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 
