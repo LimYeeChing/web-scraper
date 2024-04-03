@@ -9,6 +9,8 @@ colnames(results) <- c("product_type", "product_name", "product_url")
 
 homepage <- read_html_live(HOMEPAGE_URL)
 
+# Click on button to view products
+
 homepage$click('[data-header-popup="nav1"]')
 
 columns <- 
