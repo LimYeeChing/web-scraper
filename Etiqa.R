@@ -48,6 +48,8 @@ for (i in 1:nrow(product_types)) {
     html_elements("p.text-left , .mt-3 div") %>%
     html_text2()
   
+  # Clean product descriptions
+
   product_description <- product_description[product_description != "" & product_description != " "]
   
   if(length(product_description) > length(product_name)){
