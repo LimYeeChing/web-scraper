@@ -19,7 +19,7 @@ colnames(results) <- c("product_type", "product_name", "product_description")
 # Loop through all product types, visiting each type's page and scraping info
 
 for (i in 1:length(CATEGORY_URLS)) {
-  html <- read_html_live(CATEGORY_URLS[i])
+  html <- read_html(CATEGORY_URLS[i])
   
   # Scrape product names
   
