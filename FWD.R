@@ -33,7 +33,7 @@ load_more <- function(html){
 for (i in 1:length(CATEGORY_URLS)){
 
   html <- read_html_live(CATEGORY_URLS[i])
-  html$view()
+
   # Attempt to press 'show more' 10 times to load the whole page
 
   load_more(html)
@@ -57,12 +57,15 @@ for (i in 1:length(CATEGORY_URLS)){
 
 }
 
-
 # Combine duplicate results with different product_type
 
 results <- results %>%
   group_by(product_name, product_description) %>%
   summarise(product_type = paste(unique(product_type), collapse = ", "))
+
+# Rearrange columns
+
+results <- results[, c(3, 1, 2)]
 
 # Write results to .csv file
 
