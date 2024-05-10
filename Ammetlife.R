@@ -1,6 +1,6 @@
 library(rvest)
 
-OUTPUT_FILE_PATH <- "results/Ammetlife.csv"
+OUTPUT_FILE_PATH <- "results/ammetlife.csv"
 
 # Ammetlife's website doesn't have a product menu/index page, so these links have to be manually copied 
 # Check https://www.ammetlife.com/ from time-to-time in case some links change, or if there's a new category
@@ -40,7 +40,7 @@ for (i in 1:length(CATEGORY_URLS)) {
   # Band-aid solution for now
 
   if (length(product_name) > length(product_description)){
-    print(paste("Warning: one or more of the products in", CATEGORY_URLS[i], "is missing a product desciption, filling in with 'No description found'"))
+    print(paste("(ammetlife) Warning: one or more of the products in", CATEGORY_URLS[i], "is missing a product desciption, filling in with 'No description found'"))
     print("Please check if this is correct, and if the descriptions match the products")
 
     product_description[(length(product_description) + 1):length(product_name)] <- "*No description found"
@@ -51,7 +51,8 @@ for (i in 1:length(CATEGORY_URLS)) {
   }
 }
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 

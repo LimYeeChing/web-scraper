@@ -1,6 +1,6 @@
 library(rvest)
 
-OUTPUT_FILE_PATH <- "results/AIA.csv"
+OUTPUT_FILE_PATH <- "results/aia.csv"
 
 URL_LIST <- c("Health Protection" = "https://www.aia.com.my/en/our-products/health-protection.html",
             "Wealth Protection" = "https://www.aia.com.my/en/our-products/wealth-protection.html",
@@ -9,10 +9,11 @@ URL_LIST <- c("Health Protection" = "https://www.aia.com.my/en/our-products/heal
             "Motor Insurance" = "https://www.aia.com.my/en/our-products/motor-insurance.html")
 
 results <- data.frame(matrix(nrow = 0, ncol = 4))
-colnames(results) <- c("product_type", "product_category", "product_name", "product_description")
+colnames(results) <- c("product_type", "product_name", "product_description")
 
 # `load_more()` attempts to click "Load More" at the bottom of the page
 # Returns TRUE on success, FALSE on error
+# Not all products would load if we don't click "Load More"
 
 load_more <- function(html){
     tryCatch(
@@ -26,28 +27,24 @@ load_more <- function(html){
     )
 }
 
-# Loop through every url in `URL_LIST`
-
 for (i in 1:length(URL_LIST)){
 
   url  <- URL_LIST[i]
   html <- read_html_live(url)
 
-  # Fully load all products on the page
+  # Fully load all products on the page so they can be scraped
 
   while(TRUE){
     if(!load_more(html))
       break
     }
   
-  # Scrape product_name, product_category, product_description
-
   product_name <-
     html %>% 
     html_elements("h2.cmp-productfilterlist__productcard__title") %>%
     html_text2()
 
-  product_category <-
+  product_type<-
     html %>% 
     html_elements("div.cmp-productfilterlist__productcard__category") %>%
     html_text2()
@@ -57,19 +54,20 @@ for (i in 1:length(URL_LIST)){
     html_elements("div.cmp-productfilterlist__productdescription") %>%
     html_text2()
 
-  # Clean data 
+  # Clean data, there are some placeholder products in the site
 
   product_name <- product_name[product_name != "huhu"]
   product_description <- product_description[product_description != "huhu"]
 
   # Compile data from this site with results previously scraped
 
-  if(!any(length(product_category) == 0, length(product_name) == 0, length(product_description) == 0)){
-    results <- rbind(results, data.frame(product_type = names(url), product_category, product_name, product_description)) 
+  if(!any(length(product_type) == 0, length(product_name) == 0, length(product_description) == 0)){
+    results <- rbind(results, data.frame(product_type, product_name, product_description)) 
   }
 
 }
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)

@@ -1,4 +1,9 @@
-FILE_PATH_OUTPUT <- "results/compilation.csv"
+# Before running the code, run the line of code below and clear the captcha for Zurich's website first
+# read_html_live("https://www.zurich.com.my/en/insurance-products/protection")$view()
+
+start_time <- Sys.time()
+
+FILE_PATH_OUTPUT <- "results/COMPILATION.csv"
 
 COMPANY_NAMES <- c("AIA" = "aia", 
                    "Allianz" = "allianz",
@@ -37,3 +42,9 @@ for (i in 1:length(COMPANY_NAMES)){
 }
 
 write.csv(results, file = FILE_PATH_OUTPUT, row.names = FALSE)
+
+end.time <- Sys.time()
+
+# Calculate runtime
+runtime <- end_time - start_time
+print(paste("Runtime:", runtime))

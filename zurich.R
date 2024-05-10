@@ -1,3 +1,6 @@
+# If captcha error occurs, use html$view() to solve the captcha then rerun the code.
+# read_html_live("https://www.zurich.com.my/en/insurance-products/protection")$view()
+
 library(rvest)
 
 OUTPUT_FILE_PATH <- "results/zurich.csv"
@@ -56,11 +59,17 @@ for (url in url_list) {
 
   if (length(product_name) != 0 && length(product_description) != 0){
     results <- rbind(results, data.frame(product_type = product_category, product_name, product_description)) 
+  } else{
+    stop("An error occurred. Likely Zurich Website Captcha.", call. = FALSE, .exit = 1)
   }
   
 }
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
+
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 

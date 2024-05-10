@@ -9,7 +9,7 @@ colnames(results) <- c("product_type", "product_name", "product_url")
 
 homepage <- read_html_live(HOMEPAGE_URL)
 
-# Click on button to view products
+# Click on 'Products' button to open products menu 
 
 homepage$click('[data-header-popup="nav1"]')
 
@@ -75,7 +75,8 @@ for (i in 1:length(results$product_url)){
 
 results$product_url <- NULL
 
-# Write results to csv
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 

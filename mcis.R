@@ -67,7 +67,8 @@ for (i in 1:nrow(product_types)) {
 
 }
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 

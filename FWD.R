@@ -1,7 +1,7 @@
 library(rvest)
 library(dplyr)
 
-OUTPUT_FILE_PATH <- "results/FWD.csv"
+OUTPUT_FILE_PATH <- "results/fwd.csv"
 
 # FWD's website doesn't have a product menu/index page, so these links have to be manually copied 
 # Check https://www.fwd.com.my from time-to-time in case some links change, or if there's a new category
@@ -63,10 +63,9 @@ results <- results %>%
   group_by(product_name, product_description) %>%
   summarise(product_type = paste(unique(product_type), collapse = ", "))
 
-# Rearrange columns
+results <- results[, c(3, 1, 2)] # Rearrange columns, sunmarise() changes their order
 
-results <- results[, c(3, 1, 2)]
-
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)

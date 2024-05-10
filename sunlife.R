@@ -14,9 +14,7 @@ colnames(results) <- c("product_type", "product_name", "product_description")
 
 html <- read_html("https://www.sunlifemalaysia.com/plans/protection-needs/")
   
-  # Scrape product names
-  
-  product_name <-
+  product_type <-
     html %>% 
     html_elements(".main-col h2") %>%
     html_text2()
@@ -35,7 +33,7 @@ product_types <- data.frame(product_type, url)
 for (i in 1:nrow(product_types)) {
   html <- read_html(product_types$url[i])
   
-  # Scrape product names
+  # Scrape additional urls
   
   urls <-
     html %>% 
@@ -49,8 +47,6 @@ for (i in 1:nrow(product_types)) {
     html %>% 
     html_elements(".package-detail h4") %>%
     html_text2()
-
-  # Scrape product descriptions
  
   product_description <-
     html %>%
@@ -63,14 +59,14 @@ for (i in 1:nrow(product_types)) {
 
   for (url in urls){
 
+    # Visit newly scraped links 
+   
     html <- read_html(url)
 
     product_name <-
       html %>% 
       html_elements(".package-detail h4") %>%
       html_text2()
-
-    # Scrape product descriptions
     
     product_description <-
       html %>%
@@ -85,7 +81,8 @@ for (i in 1:nrow(product_types)) {
   
 }
 
-# Combine duplicate results 
+# Combine duplicate results
+# some products fall into more than one category, thus appearing in multiple pages 
 
 results <- results %>%
   group_by(product_name, product_description) %>%
@@ -93,12 +90,13 @@ results <- results %>%
 
 results <- results[, c(3, 1, 2)]
 
-# Clean out takaful products (not all of them will be filtered with this method)
+# Clean out takaful products (though I believe not all of them will be filtered with this method)
 
 results <- results[!grepl("takaful", results$product_name,  ignore.case = TRUE), ]
 results <- results[!grepl("takaful", results$product_description,  ignore.case = TRUE), ]
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 

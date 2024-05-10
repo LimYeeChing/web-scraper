@@ -65,50 +65,6 @@ for (i in 1:nrow(product_urls)){
     html_elements(".subtitle") %>%
     html_text2() 
 
-  # invisible_class <- 
-  #   html %>%
-  #   html_elements(".w-condition-invisible, .hide") 
-
-  # invisible_elements <- vector(mode = "character")
-
-  # Mark the 1st to 5th children of any invisible elements as invisible 
-  # This loop doesn't work, I have no idea why...
-  # for (j in 1:5){
-
-  #   invisible_children <- invisible_class
-
-  #   for (k in 1:j){invisible_children <- html_children(invisible_children)}
-
-  #   invisible_elements <- union(invisible_elements, invisible_children)
-
-  # }
-  
-  # invisible_child3 <- 
-  #   html %>% 
-  #   html_elements(".w-condition-invisible, .hide") %>%
-  #   html_children() %>%
-  #   html_children() %>%
-  #   html_children() 
-
-  # invisible_child4 <- 
-  #   html %>% 
-  #   html_elements(".w-condition-invisible, .hide") %>%
-  #   html_children() %>%
-  #   html_children() %>%
-  #   html_children() %>%
-  #   html_children()
-
-  # invisible_child5 <-
-  #   html %>%
-  #   html_elements(".w-condition-invisible, .hide") %>%
-  #   html_children() %>%
-  #   html_children() %>%
-  #   html_children() %>%
-  #   html_children() %>%
-  #   html_children()
-
-  # invisible_elements <- union(invisible_child3, invisible_child4)
-
   description_heading <-
     html %>%
     html_elements("h2.h2") %>%
@@ -121,7 +77,10 @@ for (i in 1:nrow(product_urls)){
 
   product_description <- paste(description_heading[1], description_body[1], sep = "\n") 
 
-  results <- rbind(results, data.frame("product_type" = product_type[1], "product_url" = product_urls$product_name[i], product_description))
+  results <- rbind(results, data.frame("product_type" = product_type[1], "product_name" = product_urls$product_name[i], product_description))
 }
+
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)

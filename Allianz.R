@@ -1,6 +1,6 @@
 library(rvest)
 
-OUTPUT_FILE_PATH <- "results/Allianz.csv"
+OUTPUT_FILE_PATH <- "results/allianz.csv"
 
 HOMEPAGE_URLS <- c("https://www.allianz.com.my/personal/life-health-and-savings.html",
                    "https://www.allianz.com.my/personal/home-motor-and-travel.html")
@@ -48,17 +48,11 @@ product_types$type_url <- paste0("https://www.allianz.com.my", product_types$typ
 for (i in 1:nrow(product_types)){
     html <- read_html(product_types$type_url[i])
 
-    print(product_types$type_url[i])
-
-    # Scrape product names
-
     product_name <-
       html %>% 
       html_elements("div.multi-column-grid") %>%
       html_elements(".c-heading") %>%
       html_text2()
-
-    # Scrape product descriptions
 
     product_description <-
       html %>% 
@@ -67,12 +61,11 @@ for (i in 1:nrow(product_types)){
 
     # Add data to results
 
-    print(product_name)
-    print(product_description)
     results <- rbind(results, data.frame(product_type = product_types$type[i], product_name, product_description))
 }
 
-# Write results to csv
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 

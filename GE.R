@@ -1,6 +1,6 @@
 library(rvest)
 
-OUTPUT_FILE_PATH <- "results/GE.csv"
+OUTPUT_FILE_PATH <- "results/ge.csv"
 
 PRODUCTS_URL <- "https://www.greateasternlife.com/my/en/personal-insurance/our-products.html" 
 
@@ -30,19 +30,19 @@ product_types <- data.frame(product_type, url)
 for (i in 1:nrow(product_types)) {
   html <- read_html(product_types$url[i])
   
-  # Scrape product names
+  # Scrape product information ----
   
   product_name <-
     html %>% 
     html_elements(".ge-headline2.ge-headline--red") %>%
     html_text2()
-
-  # Scrape product descriptions
  
   product_description <-
     html %>%
     html_elements(".solution-detail") %>%
     html_text2()
+
+  # ----
   
   if (length(product_name) != 0 && length(product_description) != 0){
     results <- rbind(results, data.frame(product_type = product_types$product_type[i], product_name, product_description)) 
@@ -50,7 +50,8 @@ for (i in 1:nrow(product_types)) {
   
 }
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 

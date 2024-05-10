@@ -1,6 +1,6 @@
 library(rvest)
 
-OUTPUT_FILE_PATH <- "results/HLA.csv"
+OUTPUT_FILE_PATH <- "results/hla.csv"
 
 # HLA's website currently shows all of its personal products on one page 
 
@@ -10,7 +10,9 @@ results <- data.frame(matrix(nrow = 0, ncol = 3))
 colnames(results) <- c("product_type", "product_name", "product_description")
 
 html <- read_html_live(PRODUCTS_PAGE)
-html$view()
+
+# Scrape information from the site ---- 
+
 product_type <-
   html %>%
   html_elements(".mb-1.text-secondary-blue-base") %>%
@@ -28,6 +30,7 @@ product_description <-
 
 results <- data.frame(product_type, product_name, product_description) 
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)

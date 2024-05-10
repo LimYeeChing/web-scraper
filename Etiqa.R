@@ -1,6 +1,6 @@
 library(rvest)
 
-OUTPUT_FILE_PATH <- "results/Etiqa.csv"
+OUTPUT_FILE_PATH <- "results/etiqa.csv"
 
 HOMEPAGE_URL <- "https://www.etiqa.com.my/v2/homepage" 
 
@@ -30,8 +30,6 @@ url <- html_attr(products, "href")
 url <- paste0("https://www.etiqa.com.my", url)
 
 product_types <- data.frame(product_type, url)
-
-# Loop through all product types, visiting each type's page and scraping info
 
 for (i in 1:nrow(product_types)) {
   html <- read_html(product_types$url[i])
@@ -81,6 +79,7 @@ results$product_description <- gsub('EndFragment','', results$product_descriptio
 
 results <- results[!grepl("takaful", results$product_name,  ignore.case = TRUE), ]
 
-# Write results to .csv file
+formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
+results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
