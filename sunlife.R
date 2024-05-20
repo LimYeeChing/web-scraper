@@ -3,26 +3,30 @@ library(dplyr)
 
 OUTPUT_FILE_PATH <- "results/sunlife.csv"
 
-PRODUCTS_URL <- "https://www.sunlifemalaysia.com/plans/protection-needs/" 
+PRODUCTS_URL <- "https://www.sunlifemalaysia.com/insurance-and-takaful/life-insurance/" 
 
 homepage <- read_html(PRODUCTS_URL)
 
 results <- data.frame(matrix(nrow = 0, ncol = 3))
 colnames(results) <- c("product_type", "product_name", "product_description")
 
-# Scrape product types and URLs from category index page
+# Scrape product types and URLs from navigation bar
 
-html <- read_html("https://www.sunlifemalaysia.com/plans/protection-needs/")
+html <- read_html(PRODUCTS_URL)
   
-  product_type <-
-    html %>% 
-    html_elements(".main-col h2") %>%
-    html_text2()
+navigation_buttons <- 
+  html %>%
+  html_elements(".nav-link.p-md-0.pb-0")
 
-  url <-
-    html %>% 
-    html_elements(".main-col a") %>%
-    html_attr("href")
+product_type <- 
+  navigation_buttons %>%
+  html_text2() 
+
+# Clean product_type
+product_type <- gsub("\r", "", product_type)
+product_type <- gsub("\n", "", product_type)
+
+url <- html_attr(navigation_buttons, "href")
 
 url[startsWith(url, "/")] <- paste0("https://www.sunlifemalaysia.com", url[startsWith(url, "/")])
 
@@ -32,53 +36,34 @@ product_types <- data.frame(product_type, url)
 
 for (i in 1:nrow(product_types)) {
   html <- read_html(product_types$url[i])
-  
-  # Scrape additional urls
-  
-  urls <-
-    html %>% 
-    html_elements(".year-list-wrapper a") %>%
-    html_attr("href") 
-    
-  urls <- gsub(" ", "%20", urls)
-  urls <- paste0("https://www.sunlifemalaysia.com", urls)
 
   product_name <-
     html %>% 
-    html_elements(".package-detail h4") %>%
+    html_elements("div.card-product h5.sl-bold") %>%
     html_text2()
  
   product_description <-
     html %>%
-    html_elements(".package-detail ul") %>%
+    html_elements("div.card-product div.l2-inner") %>%
     html_text2()
+  
+  # Stickers contain extra information about the product's category
+  # We use these stickers to further filter out takaful products
+
+  # sticker <- 
+  #   html %>% 
+  #   html_elements("div.card-product .sub-cat1 .m-0") %>%
+  #   html_text2()
+
+  # non_takaful_products <- !grepl("takaful", sticker, fixed = TRUE)
+
+  # product_name <- product_name[non_takaful_products]
+  # product_description <- product_description[non_takaful_products]
 
   if (length(product_name) != 0 && length(product_description) != 0){
     results <- rbind(results, data.frame(product_type = product_types$product_type[i], product_name, product_description)) 
   }
 
-  for (url in urls){
-
-    # Visit newly scraped links 
-   
-    html <- read_html(url)
-
-    product_name <-
-      html %>% 
-      html_elements(".package-detail h4") %>%
-      html_text2()
-    
-    product_description <-
-      html %>%
-      html_elements(".package-detail ul") %>%
-      html_text2()
-
-    if (length(product_name) != 0 && length(product_description) != 0){
-        results <- rbind(results, data.frame(product_type = product_types$product_type[i], product_name, product_description)) 
-    }
-
-  }
-  
 }
 
 # Combine duplicate results
@@ -90,13 +75,11 @@ results <- results %>%
 
 results <- results[, c(3, 1, 2)]
 
-# Clean out takaful products (though I believe not all of them will be filtered with this method)
-
-results <- results[!grepl("takaful", results$product_name,  ignore.case = TRUE), ]
-results <- results[!grepl("takaful", results$product_description,  ignore.case = TRUE), ]
+# Filter out takaful products
+results <- results[!grepl("takaful", results$product_type,  ignore.case = TRUE), ]
 
 formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
-results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
+results <- rbind(results, c("product_type" = "Scraped at", "product_name" = ":", "product_description" = formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 
