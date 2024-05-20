@@ -1,3 +1,4 @@
+library(rvest)
 # Before running the code, run the line of code below and clear the captcha for Zurich's website first
 # read_html_live("https://www.zurich.com.my/en/insurance-products/protection")$view()
 
@@ -37,14 +38,15 @@ colnames(results) <- c("company", "product_type", "product_name", "product_descr
 for (i in 1:length(COMPANY_NAMES)){
 
   company_results <- cbind(company = names(COMPANY_NAMES[i]), read.csv(results_file_names[i]))
+  company_results <- company_results[-nrow(company_results), ] # Remove timestamps
   results <- rbind(results, company_results)
 
 }
 
 write.csv(results, file = FILE_PATH_OUTPUT, row.names = FALSE)
 
-end.time <- Sys.time()
+end_time <- Sys.time()
 
 # Calculate runtime
 runtime <- end_time - start_time
-print(paste("Runtime:", runtime))
+print(paste("Scraping completed. Total Runtime:", runtime, "minutes"))
