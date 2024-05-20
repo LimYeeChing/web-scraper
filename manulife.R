@@ -93,7 +93,7 @@ results <- results %>%
 results <- results[, c(3, 1, 2)]
 
 formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
-results <- rbind(results, c("Scraped at", ":", formatted_timestamp))
+results <- rbind(results, c("product_type" = "Scraped at", "product_name" = ":", "product_description" = formatted_timestamp))
 
 write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 
