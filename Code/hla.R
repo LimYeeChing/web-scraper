@@ -65,6 +65,7 @@ results <- results %>%
     product_type == "Health & Medical Protection" ~ "TBD (CI/Medical/H&P)",
     product_type == "Accident Protection" ~ "H&P",
     product_type == "Disability Income" ~ "H&P",
+    product_type == "Health & Medical" ~ "CI/H&P/Medical",
     TRUE ~ product_type
   ))
 
