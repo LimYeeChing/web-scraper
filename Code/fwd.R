@@ -61,6 +61,8 @@ remove_even_occurrences <- function(char_vector) {
 
 `%||%` <- function(x, y) if (is.null(x)) y else x
 
+html$session$default_timeout <- 10*100000000
+
 for (i in 1:nrow(urls)){
 
   html <- read_html_live(urls$url[i])
