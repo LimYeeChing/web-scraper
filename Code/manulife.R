@@ -49,8 +49,6 @@ for (i in 1:nrow(product_types)) {
     html_elements(".cmp-list__cta--tab-list .cmp-list .cmp-list__item-link") %>%
     html_text2()
   
-  print(paste(i , length(url), length(product_type)))
-  
   if (length(url) != 0 && length(product_type) != 0){
       updated_product_types <- rbind(updated_product_types, data.frame(url, product_type))
   }
