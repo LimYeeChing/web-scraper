@@ -114,7 +114,7 @@ url_results <- url_results %>%
     product_type == "Home" ~ "General Insurance",
     product_type == "Life" ~ "Life Insurance",
     product_type == "H&P" ~ "General Insurance",
-    product_type == "Medical" ~ "Life Insurance",
+    product_type == "Medical" ~ "General Insurance",
     product_type == "Liability" ~ "General Insurance",
     product_type == "Investment" ~ "Life Insurance",
     product_type == "Misc." ~ "General Insurance"
