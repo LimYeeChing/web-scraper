@@ -100,8 +100,11 @@ company_list <- company_list %>%
     TRUE ~ company  # Keep the original if no match
   ))
 
-results$company <- company_list
-results$product_description <- desc_list
+results <- results %>%
+  mutate(company = company_list$company)
+
+results <- results %>%
+  mutate(product_description = desc_list$product_description)
 
 results <- results %>%
   mutate(product_type = case_when(
@@ -110,13 +113,17 @@ results <- results %>%
     grepl("motor", tolower(product_description)) | grepl("motor", tolower(product_name)) ~ "Motor",
     grepl("road", tolower(product_description)) | grepl("road", tolower(product_name)) ~ "Motor",
     grepl("travel", tolower(product_description)) | grepl("travel", tolower(product_name)) ~ "Travel",
-    grepl("investment", tolower(product_description)) | grepl("investment", tolower(product_name)) ~ "Investment"
+    grepl("investment", tolower(product_description)) | grepl("investment", tolower(product_name)) ~ "Investment",
+    TRUE ~ NA_character_
   )) %>%
   mutate(product_type = case_when(
-    insurance_type == "Life Insurance" & product_type == "" ~ "Life",
-    insurance_type == "General Insurance" & product_type == "" ~ "Misc.",
+    is.na(product_type) & insurance_type == "Life Insurance" ~ "Life",
+    is.na(product_type) & insurance_type == "General Insurance" ~ "Misc.",
     TRUE ~ product_type
   ))
+
+# Manual correction to EZ Smart Plan product_type
+results$product_type <- ifelse(results$product_name == "EZ Smart Plan", "H&P", results$product_type)
 
 # Rearrange columns, remove unnecessary ones 
 
