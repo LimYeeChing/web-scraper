@@ -1,9 +1,16 @@
 library(rvest)
 library(dplyr)
+library(chromote)
 
 OUTPUT_FILE_PATH <- "Results/bankrakyat.csv"
 
-homepage <- read_html_live("https://www.bankrakyat.com.my/")
+b <- ChromoteSession$new()
+b$Page$navigate("https://www.bankrakyat.com.my/")
+b$Page$loadEventFired(timeout = 60000)
+html <- b$Runtime$evaluate("document.documentElement.outerHTML")
+homepage <- read_html(html$result$value)
+
+# homepage <- read_html_live("https://www.bankrakyat.com.my/")
 
 # They don't have takaful index page, so forced to scrape from menu 
 # Takaful products are between 'Will Writing' and 'Unit Trust'
@@ -43,7 +50,12 @@ companies <- data.frame(full_name = c("Takaful Ikhlas Family", "Takaful Ikhlas G
 
 for (i in 1:length(product_urls)){
 
-  html <- read_html_live(product_urls[i])
+  c <- ChromoteSession$new()
+  c$Page$navigate(product_urls[i])
+  c$Page$loadEventFired(timeout = 300000)
+  dummy_html <- c$Runtime$evaluate("document.documentElement.outerHTML")
+  html <- read_html(dummy_html$result$value)
+  # html <- read_html_live(product_urls[i])
 
   product_name <- 
     html %>% 

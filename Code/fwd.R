@@ -64,8 +64,13 @@ remove_even_occurrences <- function(char_vector) {
 html$session$default_timeout <- 10*100000000
 
 for (i in 1:nrow(urls)){
-
-  html <- read_html_live(urls$url[i])
+  
+  b <- ChromoteSession$new()
+  b$Page$navigate(urls$url[i])
+  b$Page$loadEventFired(timeout = 60000)
+  dummy_html <- b$Runtime$evaluate("document.documentElement.outerHTML")
+  html <- read_html(dummy_html$result$value)
+  # html <- read_html_live(urls$url[i])
 
   for(n in 1:2){
     load_more(html)
@@ -89,7 +94,7 @@ for (i in 1:nrow(urls)){
   }
 }
 
-# Combine duplicate results with different product_type
+  # Combine duplicate results with different product_type
 
 results <- results %>%
   group_by(product_name, product_description) %>%
