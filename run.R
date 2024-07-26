@@ -26,6 +26,7 @@ BANK_NAMES <- c("CIMB" = "cimb",
                 "Maybank" = "maybank",
                 "Public Bank" = "publicbank",
                 "RHB Bank" = "rhb",
+                "Affin Bank" = "affin",
                 "AmBank" = "ambank",
                 "Bank Islam" = "bankislam",
                 "Bank Rakyat" = "bankrakyat",
@@ -33,7 +34,10 @@ BANK_NAMES <- c("CIMB" = "cimb",
                 "HSBC" = "hsbc",
                 "OCBC" = "ocbc",
                 "Standard Chartered" = "sc",
-                "UOB" = "uob")
+                "UOB" = "uob",
+                "MBSB" = "mbsb",
+                "BSN" = "bsn",
+                "Bank Muamalat" = "muamalat")
 
 code_file_names <- paste0("Code/", COMPANY_NAMES, ".R")
 bank_code_file_names <- paste0("Code/", BANK_NAMES, ".R")
