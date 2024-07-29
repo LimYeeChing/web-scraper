@@ -127,7 +127,6 @@ last_week_path <- paste("Results", last_weeks_month, last_weeks_year, "Week", la
 last_week_csv <- read.csv(paste0(last_week_path, "/bankrakyat.csv"))
 
 this_week_names <- tolower(combined_results$product_name)
-this_week_names <- head(this_week_names, -1)
 last_week_names <- tolower(last_week_csv$product_name)
 last_week_names <- head(last_week_names, -1)
 
