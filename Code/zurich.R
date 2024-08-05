@@ -1,5 +1,5 @@
 # If captcha error occurs, use html$view() to solve the captcha then rerun the code.
-# read_html_live("https://www.zurich.com.my/en/insurance-products/protection")$view()
+# read_html_live("https://www.zurich.com.my/insurance-products/protection")$view()
 
 library(rvest)
 library(dplyr)
@@ -21,11 +21,20 @@ url_list <- vector(mode = "character")
 for (i in 1:nrow(product_types)) {
   html <- read_html_live(product_types$url[i])
   
-  urls <-
+  urls1 <-
     html %>% 
-    html_elements("div.teaser--wrapper a") %>%
+    html_elements(".component.col-md-4") %>%
+    html_nodes("a") %>%
     html_attr("href")
-
+  
+  urls2 <- 
+    html %>%
+    html_elements(".component.col-md-6") %>%
+    html_nodes("a") %>%
+    html_attr("href")
+  
+  urls <- c(urls1, urls2)
+  
   url_list <- c(urls, url_list)
   
   if (length(urls) == 0) {
@@ -38,26 +47,26 @@ url_list <- paste0("https://www.zurich.com.my", unique(url_list))
 
 # Loop through all product sub-category, visiting each page and scraping info
 
-for (url in url_list) {
-  html <- read_html_live(url)
+for (j in 1:length(url_list)) {
+  html <- read_html_live(url_list[j])
   
   # Scrape product names
   
   product_name <-
     html %>% 
-    html_elements(".teaser__content .field-headline") %>%
+    html_elements("h5#headline.card-headline") %>%
     html_text2()
 
   # Scrape product descriptions
  
   product_description <-
     html %>%
-    html_elements(".field-promotext") %>%
+    html_elements(".card-body") %>%
     html_text2()
   
   # Obtain product category from url 
 
-  product_category <- gsub("https://www.zurich.com.my/en/insurance-products/", "", url)
+  product_category <- gsub("https://www.zurich.com.my/insurance-products/", "", url_list[j])
   product_category <- gsub("/", ", ", product_category)
   product_category <- gsub("for-my-", "", product_category)
   product_category <- gsub(", future", "", product_category)
@@ -69,6 +78,8 @@ for (url in url_list) {
   }
   
 }
+
+results$product_name[results$product_name == "Zurich"] <- "Zurich ValueLife Junior"
 
 # Add insurance_type 
 
@@ -104,10 +115,25 @@ takaful_url_list <- vector(mode = "character")
 for (i in 1:nrow(takaful_product_types)) {
   html <- read_html_live(takaful_product_types$url[i])
   
-  urls <-
+  urls1 <-
     html %>% 
-    html_elements("div.teaser--wrapper a") %>%
+    html_elements(".component.col-md-4") %>%
+    html_nodes("a") %>%
     html_attr("href")
+  
+  urls2 <- 
+    html %>%
+    html_elements(".component.col-md-6") %>%
+    html_nodes("a") %>%
+    html_attr("href")
+  
+  urls3 <- 
+    html %>%
+    html_elements(".component.col-10.col-sm-6.me-auto.ms-auto.me-sm-auto.ms-sm-auto") %>%
+    html_nodes("a") %>%
+    html_attr("href")
+  
+  urls <- c(urls1, urls2, urls3)
 
   takaful_url_list <- c(urls, takaful_url_list)
   
@@ -128,19 +154,19 @@ for (url in takaful_url_list) {
   
   product_name <-
     html %>% 
-    html_elements(".teaser__content .field-headline, h5, .teaser__content h3, .teaser__content h2") %>%
+    html_elements("h5#headline.card-headline") %>%
     html_text2()
-
+  
   # Scrape product descriptions
- 
+  
   product_description <-
     html %>%
-    html_elements(".field-promotext") %>%
+    html_elements(".card-body") %>%
     html_text2()
   
   # Obtain product category from url 
 
-  product_type <- gsub("https://www.zurich.com.my/en/takaful-products/", "", url)
+  product_type <- gsub("https://www.zurich.com.my/takaful-products/", "", url)
   product_type <- gsub("/", ", ", product_type)
   product_type <- gsub("for-my-", "", product_type)
   product_type <- gsub(", future", "", product_type)
@@ -152,6 +178,8 @@ for (url in takaful_url_list) {
   }
   
 }
+
+takaful_results$product_name[takaful_results$product_name == "Z-HomeProtect"] <- "Z-HomeProtect Takaful"
 
 takaful_results <- takaful_results %>%
   mutate(insurance_type = case_when(
