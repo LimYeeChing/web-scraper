@@ -29,7 +29,7 @@ colnames(results) <- c("product_type", "product_name", "product_description", "i
 load_more <- function(html){
     tryCatch(
         {
-        html$click(".otQLA, .fRVOKB")
+        html$click(".hQIhXh")
         return(TRUE)
         },
         error = function(e) {
@@ -65,16 +65,16 @@ html$session$default_timeout <- 10*100000000
 
 for (i in 1:nrow(urls)){
   
-  b <- ChromoteSession$new()
-  b$Page$navigate(urls$url[i])
-  b$Page$loadEventFired(timeout = 60000)
-  dummy_html <- b$Runtime$evaluate("document.documentElement.outerHTML")
-  html <- read_html(dummy_html$result$value)
-  # html <- read_html_live(urls$url[i])
+  # b <- ChromoteSession$new()
+  # b$Page$navigate(urls$url[i])
+  # b$Page$loadEventFired(timeout = 60000)
+  # dummy_html <- b$Runtime$evaluate("document.documentElement.outerHTML")
+  # html <- read_html(dummy_html$result$value)
+  html <- read_html_live(urls$url[i])
 
   for(n in 1:2){
     load_more(html)
-    Sys.sleep(1)
+    Sys.sleep(2)
   }
 
   product_name <- 
