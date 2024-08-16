@@ -1,0 +1,525 @@
+company,product_type,product_name,insurance_type,status,date_discovered,date_retired
+AIA,Life,A-LifeLink 2,Life Insurance,Existing,29-May-24,-
+AIA,Medical,A-Plus Health 2,Life Insurance,Existing,29-May-24,-
+AIA,Life,A-Life Idaman,Family Takaful,Existing,29-May-24,-
+AIA,Medical,A-Plus Health Flex-i,Family Takaful,Existing,29-May-24,-
+AIA,Medical,A-Life MediFlex,Life Insurance,Existing,29-May-24,-
+AIA,Medical,A-Life Mediflex-i,Family Takaful,Existing,29-May-24,-
+AIA,Life,A-Life Joy Xtra,Life Insurance,Existing,29-May-24,-
+AIA,Life,A-Life Kasih Famili,Family Takaful,Existing,29-May-24,-
+AIA,Critical Illness,A-Life Essential Critical Care,Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,A-Life Kritikal Protector,Family Takaful,Existing,29-May-24,-
+AIA,Critical Illness,A-Life Beyond Critical Care,Life Insurance,Existing,29-May-24,-
+AIA,Life,A-Life Lady,Life Insurance,Existing,29-May-24,-
+AIA,Life,A-Life Lady-i,Family Takaful,Existing,29-May-24,-
+AIA,Critical Illness,A-Life Cancer360,Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,A-Life Cancer360-i,Family Takaful,Existing,29-May-24,-
+AIA,Critical Illness,AIA Critical Illness Cover,Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,AIA i-Critical Illness Cover,Family Takaful,Existing,29-May-24,-
+AIA,Medical,AIA Med Basic,Life Insurance,Existing,29-May-24,-
+AIA,Medical,AIA i-Med Basic,Family Takaful,Existing,29-May-24,-
+AIA,Life,AIA One Plan,Life Insurance,Existing,29-May-24,-
+AIA,Life,AIA i-One Plan,Family Takaful,Existing,29-May-24,-
+AIA,Life,AIA Starter Plan,Life Insurance,Existing,29-May-24,-
+AIA,Life,AIA i-Starter Plan,Family Takaful,Existing,29-May-24,-
+AIA,Critical Illness,Insure360 (Critical Illness),Life Insurance,Existing,29-May-24,-
+AIA,Medical,Insure360 (Medical),Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,A-Plus Beyond Critical Shield & A-Plus Beyond Early Critical Shield,Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,A-Plus Beyond Critical Shield-i & A-Plus Beyond Early Critical Shield-i,Family Takaful,Existing,29-May-24,-
+AIA,Critical Illness,A-Plus CriticalCare,Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,A-Plus CriticalCare-i,Family Takaful,Existing,29-May-24,-
+AIA,Medical,A-Plus Recover,Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,A-Plus Multi CriticalCare,Life Insurance,Existing,29-May-24,-
+AIA,Medical,A-Plus Recover-i,Family Takaful,Existing,29-May-24,-
+AIA,Life,A-Plus ParentCare Xtra,Life Insurance,Existing,29-May-24,-
+AIA,Life,A-Plus ParentCare Xtra-i,Family Takaful,Existing,29-May-24,-
+AIA,Medical,A-Plus BabyCare Xtra,Life Insurance,Existing,29-May-24,-
+AIA,Medical,A-Plus BabyCare Xtra-i,Family Takaful,Existing,29-May-24,-
+AIA,Critical Illness,A-Plus Critical Shield-i,Family Takaful,Existing,29-May-24,-
+AIA,Medical,A-Plus MedCare,Life Insurance,Existing,29-May-24,-
+AIA,Critical Illness,A-Plus Beyond Advance Care,Life Insurance,Existing,29-May-24,-
+AIA,Investment,A-Life Wealth Builder,Life Insurance,Existing,29-May-24,-
+AIA,Investment,A-Life Legasi Beyond,Family Takaful,Existing,29-May-24,-
+AIA,Life,A-Life Wealth Venture,Life Insurance,Existing,29-May-24,-
+AIA,Savings,A-Life Wealth Treasure,Life Insurance,Retired,29-May-24,3-Jul-24
+AIA,Life,A-Life Sejuta Makna,Family Takaful,Existing,29-May-24,-
+AIA,Investment,A-Life Wealth Premier,Life Insurance,Existing,29-May-24,-
+AIA,Savings,A-Enrich Rezeki,Family Takaful,Existing,29-May-24,-
+AIA,Savings,A-EnrichGold,Life Insurance,Existing,29-May-24,-
+AIA,Savings,A-EnrichGold-i,Family Takaful,Existing,29-May-24,-
+AIA,Savings,A-Enrich Wealth,Life Insurance,Existing,29-May-24,-
+AIA,Investment,A-InvestLink,Life Insurance,Existing,29-May-24,-
+AIA,Investment,A-Life Infinite,Life Insurance,Existing,29-May-24,-
+AIA,Savings,A-Enrich20,Life Insurance,Existing,29-May-24,-
+AIA,"Life, Savings, Investment",A-EduAchieve 2,Life Insurance,Existing,29-May-24,-
+AIA,Savings,A-Plus Infaq,Family Takaful,Existing,29-May-24,-
+AIA,H&P,AIA Travel PA Plus,General Insurance,Existing,29-May-24,-
+AIA,H&P,Xtra Guard PA,General Insurance,Existing,29-May-24,-
+AIA,H&P,Xtra Guard Booster,General Insurance,Existing,29-May-24,-
+AIA,H&P,Flex PA,General Insurance,Existing,29-May-24,-
+AIA,H&P,Medi Guard,General Insurance,Existing,29-May-24,-
+AIA,H&P,Living Care,General Insurance,Existing,29-May-24,7-Jun-24
+AIA,H&P,Crime Guard,General Insurance,Existing,29-May-24,-
+AIA,H&P,Family Shield,General Insurance,Existing,29-May-24,-
+AIA,H&P,Child Plus,General Insurance,Existing,29-May-24,-
+AIA,H&P,Easy Cover PA,General Insurance,Existing,29-May-24,-
+AIA,H&P,AIA Student Accident Shield,General Insurance,Existing,29-May-24,-
+AIA,H&P,Group Flexible Personal Accident,General Insurance,Existing,29-May-24,-
+AIA,H&P,SafeTrip,General Insurance,Existing,29-May-24,-
+AIA,H&P,WalletSafe,General Insurance,Existing,29-May-24,-
+AIA,H&P,A-Plus Total AccidentShield,Life Insurance,Existing,29-May-24,-
+AIA,H&P,A-Life Pelindung,Family Takaful,Existing,29-May-24,-
+AIA,H&P,A-Plus Accident ShieldExtra-i,Family Takaful,Existing,29-May-24,-
+AIA,Home,SafeHome,General Insurance,Existing,29-May-24,-
+AIA,Home,A-Essential Home,General Insurance,Existing,29-May-24,-
+AIA,Home,AIA Fixed Rate Mortgage,General Insurance,Existing,29-May-24,-
+AIA,Motor,Family Drive,General Insurance,Existing,29-May-24,-
+AIA,Motor,Comprehensive Private Car Insurance,General Insurance,Existing,29-May-24,-
+AIA,Motor,Comprehensive Commercial Vehicle Insurance,General Insurance,Existing,29-May-24,-
+Allianz,Life,Allianz UltimateLink,Life Insurance,Existing,29-May-24,-
+Allianz,Life,Allianz EverLink Signature,Life Insurance,Existing,29-May-24,-
+Allianz,Life,Allianz EverLink Plus,Life Insurance,Existing,29-May-24,-
+Allianz,Life,Power Shield,Life Insurance,Existing,29-May-24,-
+Allianz,Life,Allianz Ability Life,Life Insurance,Existing,29-May-24,-
+Allianz,Life,Allianz Kasih4All,Life Insurance,Existing,29-May-24,-
+Allianz,Life,Allianz Legacy Plus,Life Insurance,Existing,29-May-24,-
+Allianz,Life,Allianz i-EssentialCover,Life Insurance,Existing,29-May-24,-
+Allianz,Medical,Allianz Diabetic Essential,Life Insurance,Existing,29-May-24,-
+Allianz,Medical,HealthInsured,Life Insurance,Existing,29-May-24,-
+Allianz,Medical,MediAdvantage,Life Insurance,Existing,29-May-24,-
+Allianz,Medical,Allianz i-HospitalCash,Life Insurance,Existing,29-May-24,-
+Allianz,Medical,Allianz MediCure,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,HealthCover,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,HealthCover Plus,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,HealthCover Enhancer,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,Allianz i-Cancer Care,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,Prime Care+,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,PreciousCover and BabyCover,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,Lady Guard,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Allianz Lifestyle Protect,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,ATM Shield,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Premier PA Plus,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Allianz Shield Plus,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Allianz Motorcyclist Personal Accident,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Allianz Student Personal Accident,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Personal Accident,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Special Occupation Personal Accident,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,Drive Smart Shield,Life Insurance,Existing,29-May-24,-
+Allianz,H&P,PerlindunganKu Allianz4All,Life Insurance,Existing,29-May-24,-
+Allianz,Critical Illness,Allianz PayorCover,Life Insurance,Existing,29-May-24,-
+Allianz,Investment,WealthCover,Life Insurance,Existing,29-May-24,-
+Allianz,"Life, Critical Illness",Allianz SecureCover / SecureCover Plus,Life Insurance,Existing,29-May-24,-
+Allianz,Savings,Prime Income,Life Insurance,Existing,29-May-24,-
+Allianz,Home,Smart Home Cover,General Insurance,Existing,29-May-24,-
+Allianz,Home,HouseOwner & HouseHolder Insurance,General Insurance,Existing,29-May-24,-
+Allianz,Home,Allianz KampungKu,General Insurance,Existing,29-May-24,-
+Allianz,Home,Homeguard,General Insurance,Existing,29-May-24,-
+Allianz,Motor,Car & Motor Comprehensive Cover,General Insurance,Existing,29-May-24,-
+Allianz,Motor,Car & Motor Third Party Cover,General Insurance,Existing,29-May-24,-
+Allianz,Motor,"Car & Motor Third Party, Fire & Theft Cover",General Insurance,Existing,29-May-24,-
+Allianz,Motor,Allianz Motorcycle Plus,General Insurance,Existing,29-May-24,-
+Allianz,Motor,e-Hailing Add On,General Insurance,Existing,29-May-24,-
+Allianz,Motor,Road Warrior,General Insurance,Existing,29-May-24,-
+Allianz,Motor,Bike Warrior,General Insurance,Existing,29-May-24,-
+Allianz,Travel,Allianz Travel Insurance,General Insurance,Existing,29-May-24,-
+Allianz,Misc.,Domestic Servant Insurance Scheme,General Insurance,Existing,29-May-24,-
+Allianz,Misc.,Golf Master,General Insurance,Existing,29-May-24,-
+Allianz,Misc.,Device Protection,General Insurance,Existing,29-May-24,-
+AmMetLife,Life,ProtectEase,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life,ProtectElite II,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life,ProtectSecure,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life,ProtectLink,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life,ProtectPlus,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life,Protect20,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life,ProtectSecure Prime,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life (credit-related),Level Term Assurance,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life (credit-related),Reducing Term Assurance,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life (credit-related),Reducing Term Assurance Plus,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life (credit-related),Mortgage Level Term Assurance,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life (credit-related),AmMetLife AutoLife,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life (credit-related),Mortgage Reducing Term Assurance,Life Insurance,Existing,29-May-24,-
+AmMetLife,H&P,Health Smart Rider,Life Insurance,Existing,29-May-24,-
+AmMetLife,H&P,HCC BoostUp + HealthCare Choice (Stand-Alone Medical Plan),Life Insurance,Existing,29-May-24,-
+AmMetLife,H&P,ProtectIncome,Life Insurance,Existing,29-May-24,-
+AmMetLife,H&P,HCC BoostUp Rider + HealthCare Choice Rider,Life Insurance,Retired,29-May-24,11-Jun-24
+AmMetLife,H&P,HealthCare Choice + HCC BoostUp,Life Insurance,Existing,29-May-24,-
+AmMetLife,H&P,HealthCare Choice II Rider + HCC BoostUp II Rider,Life Insurance,Existing,29-May-24,-
+AmMetLife,H&P,HealthCare Daily Cash,Life Insurance,Existing,29-May-24,-
+AmMetLife,Critical Illness,CriticalEase,Life Insurance,Existing,29-May-24,-
+AmMetLife,Critical Illness,ProtectPrime39,Life Insurance,Existing,29-May-24,-
+AmMetLife,Critical Illness,HealthCare Secure,Life Insurance,Existing,29-May-24,-
+AmMetLife,Savings,i.Am Wealth Achiever,Life Insurance,Existing,29-May-24,-
+AmMetLife,Investment,i.Am Wealth Builder,Life Insurance,Existing,29-May-24,-
+AmMetLife,Savings,WealthInspire,Life Insurance,Existing,29-May-24,-
+AmMetLife,Investment,WealthEnrich,Life Insurance,Existing,29-May-24,-
+AmMetLife,Investment,AmCapital,Life Insurance,Existing,29-May-24,-
+AmMetLife,Savings,WealthSecure Smart,Life Insurance,Existing,29-May-24,-
+AmMetLife,Savings,WealthSecure Max,Life Insurance,Existing,29-May-24,-
+AmMetLife,Life,Flexi TermLife,Life Insurance,Existing,29-May-24,-
+Etiqa,Motor,Motor Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Motor,Motorcycle Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Motor,FREE EV Home Charger Coverage Campaign,General Insurance,Existing,29-May-24,-
+Etiqa,Motor,EV Home Charger Coverage,General Insurance,Existing,29-May-24,-
+Etiqa,Travel,TripCare 360 Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Travel,Travel Ezy Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Home,Houseowner and Householder Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Home,MyRumah Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Home,Etiqa Home Secure Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Misc.,PAWer Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Life,Etiqa Term Plus,Life Insurance,Existing,29-May-24,-
+Etiqa,Life,i-Care OKU,Life Insurance,Existing,29-May-24,-
+Etiqa,Life,Etiqa Term Secure Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Life,Ezy-Life Secure Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Life,Ezy-Secure Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Life,Etiqa Life Secure Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Life,Enrich Life Plan Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Savings,Aatifa,Life Insurance,Existing,29-May-24,-
+Etiqa,Savings,Triple Growth Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Savings,Aspire Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Investment,SecureLink Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Investment,MaxiPro Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Investment,MegaPlus Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,RAHMAH PA Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,H&P,OTO 360 Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,H&P,Buddy PA Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,H&P,RiderCare PA Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,H&P,Car Accident Protection Special Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,H&P,Flexi PA Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,H&P,Mega PA Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,H&P,Cash Care PA Insurance,General Insurance,Existing,29-May-24,-
+Etiqa,Savings,Madani,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,Etiqa Critical Care Plus,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,OneMedical,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,EasyMedic,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,Etiqa Critical Care Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,e-CancerCare Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,Medical Plus Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,IL Medical Plus Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,IL CI Plus Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,IL Cancer Shield Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,H&P,IL Female Essential Insurance,Life Insurance,Existing,29-May-24,-
+Etiqa,Life,Mortgage Reducing Term Assurance (MRTA),Life Insurance,Existing,29-May-24,-
+Etiqa,Fire,Long Term Fire Insurance (LTFI),General Insurance,Existing,29-May-24,-
+FWD,Home,BSN Home Assure,Life Insurance,Existing,29-May-24,-
+FWD,Life,BSN RTA,Life Insurance,Existing,29-May-24,-
+FWD,Critical Illness,Cancer Cover+,Life Insurance,Retired,29-May-24,7-Jun-24
+FWD,Savings,Cash Booster,Life Insurance,Existing,29-May-24,-
+FWD,Life,Commute Cover+,Life Insurance,Existing,29-May-24,-
+FWD,Life,Dengue Cover+,Life Insurance,Existing,29-May-24,-
+FWD,Critical Illness,FWD CI Intense Shield,Life Insurance,Existing,29-May-24,-
+FWD,Critical Illness,FWD IL CI (Accelerated),Life Insurance,Existing,29-May-24,-
+FWD,Medical,FWD IL Hospitalisation Income Benefit,Life Insurance,Existing,29-May-24,-
+FWD,Critical Illness,FWD IL Living Extra (WOP),Life Insurance,Existing,29-May-24,-
+FWD,Life,FWD IL PA,Life Insurance,Existing,29-May-24,-
+FWD,Life,FWD IL WOP,Life Insurance,Existing,29-May-24,-
+FWD,Critical Illness,FWD Living Extra (Premium Waiver),Life Insurance,Existing,29-May-24,-
+FWD,Savings,FWD Max Wealth Campaign,Life Insurance,Existing,29-May-24,-
+FWD,Medical,FWD Medi First,Life Insurance,Existing,29-May-24,-
+FWD,Life,FWD Payor Enhanced (Premium Waiver),Life Insurance,Existing,29-May-24,-
+FWD,"Life, Investment",FWD WealthLink,Life Insurance,Existing,29-May-24,-
+FWD,"Life, Investment",FWD WealthLink Pro,Life Insurance,Existing,29-May-24,-
+FWD,Life,GoSecure & GoSecure+,Life Insurance,Existing,29-May-24,-
+FWD,Life,PA Cover+,Life Insurance,Existing,29-May-24,-
+FWD,Life,Qaseh,Life Insurance,Existing,29-May-24,-
+FWD,H&P,Qaseh Bakti Plus,Life Insurance,Existing,29-May-24,-
+FWD,Investment,QasehLink Pintar,Life Insurance,Existing,29-May-24,-
+FWD,Life,i-Care,Life Insurance,Existing,29-May-24,-
+FWD,Life,i-FlexCover,Life Insurance,Existing,29-May-24,-
+FWD,Medical,i-Med,Life Insurance,Existing,29-May-24,-
+FWD,Critical Illness,i-Protect & i-Protect Plus,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,Great Early VantageCare 2,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,Great Generation Care,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,Great MaxiProtector,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,GREAT Term Direct,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,GREAT Treasure Gift,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,Great VantageCare 2,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,SmartProtect Junior,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,SmartProtect Sure,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,SmartProtect Wealth Max,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,SmartProtect Wealth Plus,Life Insurance,Existing,29-May-24,-
+Great Eastern,Life,SmartProtect You,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,GREAT Critical Care Direct,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,GREAT Critical Care Relief,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,GREAT Health Direct,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,GREAT Medic Shield 2 + GREAT Medic Million Extender 2,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,GREAT Multi Cancer Care,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Smart Baby Shield Plus,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Smart Critical Relief ,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Smart Early Payout CriticalCare,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,SmartMedic Shield + SmartMedic Shield Plus,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Smart Multi Critical Care,Life Insurance,Existing,29-May-24,-
+Great Eastern,Savings,Great Flexi Plus,Life Insurance,Existing,29-May-24,-
+Great Eastern,Savings,Great Flexi Wealth,Life Insurance,Existing,29-May-24,-
+Great Eastern,Investment,GREAT Multi-Gen Wealth 2,Life Insurance,Existing,29-May-24,-
+Great Eastern,Investment,GREAT Wealth Enhancer,Life Insurance,Existing,29-May-24,-
+Great Eastern,Investment,SmartInvest Growth,Life Insurance,Existing,29-May-24,-
+Great Eastern,Investment,SmartInvest Premier,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,GreatShield Active,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Platinum PA,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Lady Protector,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,MOS Shield,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Easi Shield,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Easi-Protector,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Junior Protector,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Classic PA,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Great Shield Special,Life Insurance,Existing,29-May-24,-
+Great Eastern,Travel,Travel For More,Life Insurance,Existing,29-May-24,-
+Great Eastern,Travel,Great Voyager,Life Insurance,Existing,29-May-24,-
+Great Eastern,Motor,Motor Insurance,General Insurance,Existing,29-May-24,-
+Great Eastern,Home,Great Shield Home,Life Insurance,Existing,29-May-24,-
+Great Eastern,Home,Easi-Home,Life Insurance,Existing,29-May-24,-
+Great Eastern,Home,Houseowner / Household Insurance,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,EasiMed Major,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,Easi HealthCare,Life Insurance,Existing,29-May-24,-
+Great Eastern,H&P,EasiMed Active,Life Insurance,Existing,29-May-24,-
+Great Eastern,Misc.,Easi-Golf,Life Insurance,Existing,29-May-24,-
+Great Eastern,Misc.,Food Stall Insurance,Life Insurance,Existing,29-May-24,-
+Generali,H&P,Medic Essential Rider,Life Insurance,Existing,29-May-24,-
+Generali,H&P,eMedic Plus,Life Insurance,Existing,29-May-24,-
+Generali,H&P,SmartCare Optimum Plus,General Insurance,Existing,29-May-24,-
+Generali,H&P,Multi Medic,General Insurance,Existing,29-May-24,-
+Generali,H&P,Multi Medi-Plus,General Insurance,Existing,29-May-24,-
+Generali,H&P,Multi Medical-Protector,General Insurance,Existing,29-May-24,-
+Generali,H&P,Medic 101,General Insurance,Existing,29-May-24,-
+Generali,Motor,Private Car Insurance & Available Add Ons,General Insurance,Existing,29-May-24,-
+Generali,Motor,Motorcycle,General Insurance,Existing,29-May-24,-
+Generali,Home,SmartHome Optimum (Enhanced),General Insurance,Retired,29-May-24,7-Jun-24
+Generali,Home,Home Protector Enhanced,General Insurance,Existing,29-May-24,-
+Generali,Life,Wealth Creator,Life Insurance,Existing,29-May-24,-
+Generali,Life,Life 80,Life Insurance,Existing,29-May-24,-
+Generali,Life,Secure Shield,Life Insurance,Existing,29-May-24,-
+Generali,Life,Wealth Protect Assure 2,Life Insurance,Existing,29-May-24,-
+Generali,Life,eLife Protector+,Life Insurance,Existing,29-May-24,-
+Generali,Life,eSaver,Life Insurance,Existing,29-May-24,-
+Generali,Travel,Oversea Travel Insurance,General Insurance,Existing,29-May-24,-
+Generali,Travel,Domestic Travel Insurance,General Insurance,Existing,29-May-24,-
+Generali,Travel,SmartBusiness Traveller,General Insurance,Existing,29-May-24,-
+Generali,Travel,SmartCare VIP,General Insurance,Existing,29-May-24,-
+Generali,Travel,SmartPA Enhanced,General Insurance,Existing,29-May-24,-
+Generali,Travel,The Gladiator Enhanced,General Insurance,Existing,29-May-24,-
+Generali,Travel,Multi PA Protector,General Insurance,Existing,29-May-24,-
+Generali,Travel,Multi Lucky,General Insurance,Existing,29-May-24,-
+Generali,H&P,110 CI Assure,Life Insurance,Existing,29-May-24,-
+Generali,H&P,360 Cancer Assure,Life Insurance,Existing,29-May-24,-
+Generali,H&P,CritiCover,Life Insurance,Existing,29-May-24,-
+Generali,H&P,InternationalExclusive,General Insurance,Existing,29-May-24,-
+Generali,H&P,OneMedic Elite,Life Insurance,Existing,29-May-24,-
+Generali,H&P,OneMedic Lite,Life Insurance,Existing,29-May-24,-
+Generali,H&P,SmartCancer Cash,General Insurance,Existing,29-May-24,-
+Generali,H&P,eCritical Early Care,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA CompleteCover,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Asset Elite,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Asset Master,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Investment,HLA Wealth Booster Plus,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Investment,HLA Wealth Invest,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Investment,HLA Wealth Gain Plus,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Medical,HLA Premier HB,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Critical Illness,HLA FiT CI,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Critical Illness,CI Shield 5,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Life Essential,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Prime Asset,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Prime Protect,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Prime Protect Gold,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Prime Protect Plus,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Vital Secure,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,Secure100,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Stackable,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Stackable (Package Plans),Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,Term Cover 10,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,Total Cover Package,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Life,HLA Beyond Cancer Plan,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Medical,HLA FiT 3 Medi‑Income,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Medical,HLA MediShield III Rider,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Critical Illness,180 CI Care Rider,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Critical Illness,Junior CI Care,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Medical,Cancer Shield Care,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Medical,Hospital Shield Plus,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Medical,Hospitalisation Income Shield,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Baby,Congenital Care Rider,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,"Medical, Critical Illness",Lady Shield Rider,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Investment,HLA Venture Invest II,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Investment,HLA Wealth Grow Plus,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,H&P,HLA Festive Protect,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,H&P,Active Lifestyle Protector,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,H&P,HLA FiT 2 Protect,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,H&P,Disability Lump Sum Rider,Life Insurance,Existing,29-May-24,-
+Hong Leong Assurance,Investment,HLA Prime Secure,Life Insurance,Existing,29-May-24,-
+Manulife,Critical Illness,Advance Beyond Critical Cover,Life Insurance,Existing,29-May-24,-
+Manulife,Critical Illness,Beyond Critical Cover (BCC) Series + BCC Booster,Life Insurance,Existing,29-May-24,-
+Manulife,Savings,Elite Income 88,Life Insurance,Existing,29-May-24,-
+Manulife,"Life, Investment",Elite Life Guard 2,Life Insurance,Existing,29-May-24,-
+Manulife,Savings,Elite Max 88,Life Insurance,Retired,29-May-24,25-Jun-24
+Manulife,Savings,Elite Smart Invest,Life Insurance,Retired,29-May-24,25-Jun-24
+Manulife,"Life, Investment",EliteLife Signature Legacy,Life Insurance,Existing,29-May-24,-
+Manulife,Savings,EliteLife Signature Saver,Life Insurance,Existing,29-May-24,-
+Manulife,Critical Illness,ManuEZ-CI,Life Insurance,Existing,29-May-24,-
+Manulife,Medical,ManuEZ-Med,Life Insurance,Existing,29-May-24,-
+Manulife,Investment,ManuLink Essential/ManuLink Essential Plus,Life Insurance,Existing,29-May-24,-
+Manulife,Investment,ManuLink Premier,Life Insurance,Existing,29-May-24,-
+Manulife,Investment,ManuLink Wealth,Life Insurance,Existing,29-May-24,-
+Manulife,Life,ManuProtect,Life Insurance,Existing,29-May-24,-
+Manulife,Savings,ManuSecure Series,Life Insurance,Existing,29-May-24,-
+Manulife,Life,ManuTerm,Life Insurance,Existing,29-May-24,-
+Manulife,Life,ManuWhole Life,Life Insurance,Existing,29-May-24,-
+Manulife,Investment,Manulife Asset Shield,Life Insurance,Existing,29-May-24,-
+Manulife,Critical Illness,Manulife Easy 5,Life Insurance,Existing,29-May-24,-
+Manulife,Medical,Manulife Health Saver Benefit + MHSB Booster,Life Insurance,Existing,29-May-24,-
+Manulife,Medical,Manulife MediShield,Life Insurance,Existing,29-May-24,-
+Manulife,Critical Illness,Manulife Precious Gift,Life Insurance,Existing,29-May-24,-
+Manulife,Savings,Manulife Universal Saver,Life Insurance,Existing,29-May-24,-
+Manulife,Investment,Manulife Value Enhancer,Life Insurance,Existing,29-May-24,-
+Manulife,Investment,Signature Heirloom (VII),Life Insurance,Existing,29-May-24,-
+MCIS,Life,EzyProtect,Life Insurance,Existing,29-May-24,-
+MCIS,Life,SuperSeries,Life Insurance,Existing,29-May-24,-
+MCIS,H&P,LadyCare,Life Insurance,Existing,29-May-24,-
+MCIS,H&P,MaxHealth Plan,Life Insurance,Existing,29-May-24,-
+MCIS,Critical Illness,MYEarly CriticalAid,Life Insurance,Existing,29-May-24,-
+MCIS,Savings,EduSecure,Life Insurance,Existing,29-May-24,-
+MCIS,Savings,Growth Saver,Life Insurance,Existing,29-May-24,-
+MCIS,Savings,MaxSaver,Life Insurance,Existing,29-May-24,-
+MCIS,Savings,Wealth Multiplier,Life Insurance,Existing,29-May-24,-
+MCIS,Savings,EzySaver,Life Insurance,Existing,29-May-24,-
+MCIS,Investment,M-Fortune Link,Life Insurance,Existing,29-May-24,-
+MCIS,Investment,PeopleLink,Life Insurance,Existing,29-May-24,-
+MCIS,Investment,PrimeLink,Life Insurance,Existing,29-May-24,-
+MCIS,Investment,SecureInvest,Life Insurance,Existing,29-May-24,-
+MCIS,Life,Group Term Life (GTL),Life Insurance,Existing,29-May-24,-
+MCIS,"Life, Medical",SME Care+,Life Insurance,Existing,29-May-24,-
+MCIS,Critical Illness,MyCritical Cover,Life Insurance,Existing,29-May-24,-
+MCIS,Medical,MyHospital Benefit,Life Insurance,Existing,29-May-24,-
+MCIS,Life,MyLife Protect,Life Insurance,Existing,29-May-24,-
+MCIS,Life,MyLifeStyle Protect,Life Insurance,Retired,29-May-24,7-Jun-24
+Prudential,Medical,PRUMillion Med,Life Insurance,Retired,29-May-24,11-Jun-24
+Prudential,Medical,PRUValue Med,Life Insurance,Existing,29-May-24,-
+Prudential,Critical Illness,PRUMy Critical Care,Life Insurance,Existing,29-May-24,-
+Prudential,Critical Illness,PRUMan & PRULady,Life Insurance,Existing,29-May-24,-
+Prudential,Life,PRUWith You,Life Insurance,Existing,29-May-24,-
+Prudential,Baby,PRUMy Child Plus,Life Insurance,Existing,29-May-24,-
+Prudential,"Life, Medical, H&P",PRUFirst,Life Insurance,Existing,29-May-24,-
+Prudential,Investment,Legacy Plans,Life Insurance,Existing,29-May-24,-
+Prudential,Life,PRUCare Life,Life Insurance,Existing,29-May-24,-
+Prudential,Life,PRUGuard Life,Life Insurance,Existing,29-May-24,-
+Prudential,Critical Illness,PRUCare Family,Life Insurance,Existing,29-May-24,-
+Prudential,Life,PRUGuard Family,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Cash Plus Assurance,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Credit Protector Plus,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",GoLife,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",GoLife Plus,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Group Amanah Saham Assurance,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Group Mortgage Level Term Assurance,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Group Mortgage Reducing Term Assurance,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Sun AutoLife,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P, Savings",Sun EduSmart,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P, Investment",Sun Income Secure Max,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P, Investment",Sun Prestige Life,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, Savings, Investment",Sun Save Invest,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, Savings",Sun SaveAssured,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P, Savings, Investment",Sun Shield Link,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P, Savings",Sun Signature Life Plus,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, Savings",Sun Wealth Plus,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Sun eCritical Shield,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Sun eMediCare Income,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P",Sun eSsential Life,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P, Investment",SunInvest,Life Insurance,Existing,29-May-24,-
+Sun Life,"Life, H&P, Investment",SunLink Max,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,TokioMarine-iBig 2,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,TokioMarine-iMillion,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,TokioMarine-iLady,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,TokioMarine-iFlexSecure 2,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,Perlindungan Tenang TokioMarine E-ssential Tenang,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,TokioMarine-TermDefender,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,TokioMarine-LifeTreasure,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,Convertible Term Assurance,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,TokioMarine-iLifeSecure 2,Life Insurance,Retired,29-May-24,19-Jun-24
+Tokio Marine,Life,TokioMarine 360,Life Insurance,Retired,29-May-24,19-Jun-24
+Tokio Marine,H&P,iCareGuard and iCareGuard Plus,Life Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,Rider - MediCare / iMediCare 2,Life Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,iComprehensive CI,Life Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,TokioMarine-CriticalDefender,Life Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,TokioMarine-MedicDefender,Life Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,Cancer Shield Plus,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Health,iHealth Advance,Life Insurance,Retired,29-May-24,7-Jun-24
+Tokio Marine,H&P,MedShield,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Savings,TokioMarine-Optimizer,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Savings,TokioMarine-iRich Premier / TokioMarine-iRich,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Savings,Asia Income Master Plus,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Investment,Asia Premier Endowment Plus,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Savings,TokioMarine-XtraCash,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Investment,TokioMarine-BrightFuture,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Life,Group Term Life,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Critical Illness,Group Dread Disease,Life Insurance,Existing,29-May-24,-
+Tokio Marine,Motor,Motor Insurance,General Insurance,Existing,29-May-24,-
+Tokio Marine,Motor,Tokio Marine BikePro,General Insurance,Existing,29-May-24,-
+Tokio Marine,Motor,Tokio Marine AutoPro,General Insurance,Existing,29-May-24,-
+Tokio Marine,Motor,Auto Partner,General Insurance,Existing,29-May-24,-
+Tokio Marine,Motor,DriveSafe PA Partner,General Insurance,Existing,29-May-24,-
+Tokio Marine,Motor,Commercial Partner,General Insurance,Existing,29-May-24,-
+Tokio Marine,Motor,Motorcyclist Partner,General Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,Tokio Marine PremierUltra PA,General Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,Flexi PA Partner,General Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,UniqCare PA,General Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,AEONCare Insurance,General Insurance,Existing,29-May-24,-
+Tokio Marine,Travel,Tokio Marine Explorer,General Insurance,Existing,29-May-24,-
+Tokio Marine,Travel,Tokio Marine Annual Explorer,General Insurance,Existing,29-May-24,-
+Tokio Marine,Travel,Domestic Travel Partner Plus,General Insurance,Existing,29-May-24,-
+Tokio Marine,Travel,Travel Personal Accident,General Insurance,Existing,29-May-24,-
+Tokio Marine,Misc.,Golfer Insurance,General Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,Premier Medic Partner,General Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,Medic Plus,General Insurance,Existing,29-May-24,-
+Tokio Marine,H&P,Mosbite,General Insurance,Existing,29-May-24,-
+Tokio Marine,Home,Home Partner Insurance,General Insurance,Existing,29-May-24,-
+Tokio Marine,Home,Houseowners/ Householders,General Insurance,Existing,29-May-24,-
+Tokio Marine,Home,Tokio Marine SecureHome,General Insurance,Existing,29-May-24,-
+Zurich,"Investment, Life",Zurich ValueLife Pluz,Life Insurance,Existing,29-May-24,-
+Zurich,"Investment, Life",Zurich ValueLife Junior,Life Insurance,Existing,29-May-24,-
+Zurich,"Investment, Life",Zurich ValueLife,Life Insurance,Existing,29-May-24,-
+Zurich,"Investment, Life",Zurich ValueLife Premier,Life Insurance,Existing,29-May-24,-
+Zurich,Investment,Zurich Max1nvest,Life Insurance,Existing,29-May-24,-
+Zurich,"Savings, Life",Zurich Prestige Cover,Life Insurance,Existing,29-May-24,-
+Zurich,Savings,Zurich Favour8 Guaranteed Acceptance,Life Insurance,Existing,29-May-24,-
+Zurich,Savings,Zurich Favour8,Life Insurance,Existing,29-May-24,-
+Zurich,Savings,Super Wealth Plan,Life Insurance,Existing,29-May-24,-
+Zurich,"Savings, Life",Teras Perdana,Life Insurance,Existing,29-May-24,-
+Zurich,Critical Illness,Zurich iCare Essential,Life Insurance,Existing,29-May-24,-
+Zurich,Medical,Zurich iCare Medic,Life Insurance,Existing,29-May-24,-
+Zurich,Medical,Z-MedProtect,Life Insurance,Existing,29-May-24,-
+Zurich,Medical,MedicaGen 200,Life Insurance,Retired,29-May-24,11-Jun-24
+Zurich,Medical,MediLove,Life Insurance,Retired,29-May-24,11-Jun-24
+Zurich,Medical,Zurich Infinite Care,Life Insurance,Existing,29-May-24,-
+Zurich,Medical,MaxMedic,Life Insurance,Existing,29-May-24,-
+Zurich,Critical Illness,Critical Care,Life Insurance,Existing,29-May-24,-
+Zurich,Critical Illness,Critical Care Essential,Life Insurance,Existing,29-May-24,-
+Zurich,Critical Illness,Early Care Critical Illness,Life Insurance,Existing,29-May-24,-
+Zurich,Critical Illness,Flex Lady Critical Illness,Life Insurance,Existing,29-May-24,-
+Zurich,Critical Illness,Flex Junior Critical Illness,Life Insurance,Existing,29-May-24,-
+Zurich,Baby,Flex Maternity Care,Life Insurance,Existing,29-May-24,-
+Zurich,Medical,Hospital Income Plus,Life Insurance,Existing,29-May-24,-
+Zurich,Medical,Hospital & Surgical Benefit,Life Insurance,Existing,29-May-24,-
+Zurich,Life,Zurich Essential Cover,Life Insurance,Existing,29-May-24,-
+Zurich,Life,Zurich Everlasting Cover,Life Insurance,Existing,29-May-24,-
+Zurich,Life,Zurich Multi Shield,Life Insurance,Existing,29-May-24,-
+Zurich,Life,Zurich TermLife,Life Insurance,Existing,29-May-24,-
+Zurich,Life,Zurich SureCover,Life Insurance,Existing,29-May-24,-
+Zurich,Life,Max Golden Wanita Protection,Life Insurance,Existing,29-May-24,-
+Zurich,Life,PA Protector and PA Medicare,Life Insurance,Existing,29-May-24,-
+Zurich,Life,Protect All 110 EVO,Life Insurance,Existing,29-May-24,-
+Zurich,Critical Illness,Critical Care Premium Waiver,Life Insurance,Existing,29-May-24,-
+Zurich,H&P,Personal Sentinel V3 Plus,General Insurance,Existing,29-May-24,-
+Zurich,H&P,Individual Personal Accident,General Insurance,Existing,29-May-24,-
+Zurich,H&P,Domestic Maid Insurance Scheme,General Insurance,Existing,29-May-24,-
+Zurich,H&P,School Personal Accident,General Insurance,Existing,29-May-24,-
+Zurich,Home,Z-HomeProtect,General Insurance,Existing,29-May-24,-
+Zurich,Fire,Fire Insurance,General Insurance,Existing,29-May-24,-
+Zurich,Motor,Z-Drive Assist,General Insurance,Existing,29-May-24,-
+Zurich,Motor,Z-Driver,General Insurance,Existing,29-May-24,-
+Zurich,Motor,Z-Rider,General Insurance,Existing,29-May-24,-
+Zurich,Travel,Z-Travel Insurance (International),General Insurance,Existing,29-May-24,-
+Zurich,Travel,Z-Travel Insurance (Domestic),General Insurance,Existing,29-May-24,-
+Zurich,Misc.,Golfer's Insurance,General Insurance,Existing,29-May-24,-
+AIA,H&P,Senior Care,General Insurance,Existing,7-Jun-24,-
+Etiqa,Savings,MaxiW3alth,Life Insurance,Existing,7-Jun-24,-
+MCIS,Medical,MediGap Care,Life Insurance,Existing,7-Jun-24,-
+Tokio Marine,Life,TokioMarine-iLifeGuard,Life Insurance,Existing,7-Jun-24,-
+Etiqa,Investment,FlexiPro Insurance,Life Insurance,Existing,11-Jun-24,-
+Prudential,Medical,PRUMillion Med 2.0,Life Insurance,Existing,11-Jun-24,-
+AIA,Savings/Investment,A-Life Wealth Prestige,Life Insurance,New,3-Jul-24,-
