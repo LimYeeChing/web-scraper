@@ -35,7 +35,7 @@ takaful_html <- read_html_live(TAKAFUL_PAGE)
 
 product_type <-
   takaful_html %>%
-  html_elements(".mb-1.text-secondary-blue-base") %>%
+  html_elements(".body3-bold.mb-1.text-secondary-blue-base") %>%
   html_text2()
 
 product_name <- 
