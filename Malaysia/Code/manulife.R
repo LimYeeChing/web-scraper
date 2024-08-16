@@ -80,6 +80,19 @@ for (i in 1:nrow(updated_product_types)) {
   
 }
 
+# Remove all HTML tags
+product_names <- gsub("<[^>]+>", "", product_names)
+
+# Replace non-breaking spaces and other whitespace characters with a regular space
+product_names <- gsub("[\u00A0]+", " ", product_names) # Remove non-breaking spaces
+product_names <- gsub("[[:space:]]+", " ", product_names) # Replace multiple spaces with a single space
+
+# Trim any leading or trailing spaces
+product_names <- trimws(product_names)
+
+# Assign the cleaned product names back to the data frame
+results$product_name <- product_names
+
 # Adjust product_type to align with other companies, TBD used if unclear
 
 results <- results %>%
@@ -103,17 +116,6 @@ results <- results %>%
 results <- results %>%
   group_by(product_name, product_description) %>%
   summarise(product_type = paste(unique(product_type), collapse = ", "))
-
-# Product names end up with html tags for some reason. Cleaning 
-product_names <- results$product_name
-product_names <- gsub("<p>", "", product_names)
-product_names <- gsub("</p>", "", product_names)
-product_names <- gsub("\\*", "", product_names) # "*" is a regex character
-product_names <- gsub("&nbsp;", "", product_names)
-product_names <- gsub("<strong>", "", product_names)
-product_names <- gsub("</strong>", "", product_names)
-product_names <- trimws(product_names)
-results$product_name <- product_names
 
 # Rearrange columns since summarising mixes the order
 
