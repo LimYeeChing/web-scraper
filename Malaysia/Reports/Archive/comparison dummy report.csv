@@ -1,0 +1,13 @@
+"Comparison between Results_May_2024_Week_3 and Results_May_2024_Week_4",""
+"Date Produced:","28-May-2024"
+"Number of New Products:","2"
+"Number of Retired Products:","1"
+
+New Products:
+"company","product_type","product_name","product_description"
+"Zurich","Dummy","New Product","New product 1 "
+"Zurich","Dummy","Newer Product","New product 2 "
+
+Retired Products:
+"company","product_type","product_name","product_description"
+"AIA","Retired","Retired Product","Retired Product 1"

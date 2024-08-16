@@ -1,0 +1,16 @@
+"Comparison between Results_06_2024_Week_1 and Results_06_2024_Week_2",""
+"Date Produced:","11-Jun-2024"
+"Number of New Products:","2"
+"Number of Retired Products:","4"
+
+New Products:
+"company","product_type","product_name"
+"Etiqa","Investment","FlexiPro Insurance"
+"Prudential","Medical Insurance","PRUMillion Med 2.0"
+
+Retired Products:
+"company","product_type","product_name"
+"AmMetLife","Health, Hospitalisation (Agency)","HCC BoostUp Rider + HealthCare Choice Rider"
+"Prudential","Medical Insurance","PRUMillion Med"
+"Zurich","protection, health","MedicaGen 200"
+"Zurich","protection, health","MediLove"

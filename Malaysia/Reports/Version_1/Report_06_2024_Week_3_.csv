@@ -1,0 +1,16 @@
+Comparison between Results_06_2024_Week_2 and Results_06_2024_Week_3,,
+Date Produced:,19-Jun-24,
+Number of New Products:,0,
+Number of Retired Products:,4,
+,,
+New Products:,,
+company,product_type,product_name
+,,
+Retired Products:,,
+company,product_type,product_name
+Prudential,Wealth Insurance,Savings & Investment Plans
+Prudential,Wealth Insurance,Investment-linked Funds Information
+Zurich,"protection, health",Enhance Your Coverage With Our Riders
+Zurich,"protection, life",Enhance Your Coverage With Our Riders
+,,
+"NOTE: THESE WERE RESULTS THAT WERE MISTAKENLY SCRAPED, NOT ACTUALLY PRODUCTS. FIXED THE CODE TO NOT SCRAPE THESE ANYMORE SO COMPARISON TOOL THINKS THEY ARE RETIRED",,

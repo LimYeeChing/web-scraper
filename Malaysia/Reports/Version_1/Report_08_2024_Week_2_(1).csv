@@ -1,0 +1,20 @@
+"Comparison between Results_08_2024_Week_1 and Results_08_2024_Week_2",""
+"Date Produced:","09-Aug-2024"
+"Number of New Products:","8"
+"Number of Retired Products:","2"
+
+New Products:
+"company","product_type","product_name","insurance_type","discovered_place"
+"AmMetLife","Savings/Investment, Life","i.Am Wealth Creator","Life Insurance","Insurer, Bank"
+"Etiqa","Motor","Car Insurance","General Insurance","Bank"
+"Etiqa","Motor","Car Takaful","General Takaful","Bank"
+"Etiqa","Motor","Takaful Auto Credit Plan","General Takaful","Bank"
+"FWD","Savings/Investment","FWD Guaranteed Income Booster","Life Insurance","Insurer"
+"Hong Leong Assurance","Investment","Hong Leong SMART Wealth Insurance","Life Insurance","Bank"
+"Manulife","Investment","Signature Heirloom Indexed Universal Life","Life Insurance","Insurer"
+"Syarikat Takaful","H&P","Agro Nurani","Family Takaful","Bank"
+
+Retired Products:
+"company","product_type","product_name","insurance_type","discovered_place"
+"Etiqa","H&P","Takaful Privilege PA (Telemarketing)","General Takaful","Bank"
+"Etiqa","Travel","TripCare 360","General Insurance","Bank"

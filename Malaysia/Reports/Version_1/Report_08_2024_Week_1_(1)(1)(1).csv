@@ -1,0 +1,22 @@
+Comparison between Results_07_2024_Week_4 and Results_08_2024_Week_1,,,,,
+Date Produced:,2-Aug-24,,,,
+Number of New Products:,7,,,,
+Number of Retired Products:,5,,,,
+,,,,,
+New Products:,,,,,
+company,product_type,product_name,insurance_type,discovered_place,Remarks
+Sun Life,Critical Illness,Sinar Kasih,Family Takaful,Bank,Al-rajhi Bank
+Syarikat Takaful,Life,Agro Madani,Family Takaful,Bank,Agro Bank
+Syarikat Takaful,Motor,Agro Motor Takaful,General Takaful,Bank,Agro Bank
+Syarikat Takaful,Life,Agro Takaful Aspirasi,Family Takaful,Bank,Agro Bank
+Syarikat Takaful,Life,Takaful Kasih Plus,Family Takaful,Bank,Agro Bank
+Syarikat Takaful,"Life, Savings",Takaful mySmart Wealth Plus,Family Takaful,Bank,Bank Islam
+Zurich,TBD (H&P/CI/Medical),Hospital And Surgical Benefit,Life Insurance,Insurer,Changed Naming
+,,,,,
+Retired Products:,,,,,
+company,product_type,product_name,insurance_type,discovered_place,Remarks
+Great Eastern,Life,GREAT Treasure Gift,Life Insurance,Insurer,
+Prudential,Life,PruBSN AnugerahPlus,Family Takaful,Insurer,
+Zurich,TBD (H&P/CI/Medical),Hospital & Surgical Benefit,Life Insurance,Insurer,Changed Naming
+Zurich,Investment,Takaful ProInvest,Family Takaful,Insurer,
+Zurich,Investment,Takafulink Single Invest,Family Takaful,Insurer,

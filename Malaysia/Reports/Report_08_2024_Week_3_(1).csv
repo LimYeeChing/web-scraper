@@ -1,0 +1,13 @@
+Comparison between Results_08_2024_Week_2 and Results_08_2024_Week_3,,,,,
+Date Produced:,16-Aug-24,,,,
+Number of New Products:,2,,,,
+Number of Retired Products:,1,,,,
+,,,,,
+New Products:,,,,,
+insurer,bank_name,product_type,product_name,insurance_type,discovered_place
+Manulife,-,"Life, Investment",EliteLife Signature Treasure,Life Insurance,Insurer
+Manulife,-,"Life, Savings",Manulife Future Shield,Life Insurance,Insurer
+,,,,,
+Retired Products:,,,,,
+insurer,bank_name,product_type,product_name,insurance_type,discovered_place
+Great Eastern,-,TBD(Health/Medical/CI),i-Great Harapan CI10,Family Takaful,Insurer

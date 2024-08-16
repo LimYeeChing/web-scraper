@@ -1,0 +1,135 @@
+Comparison between Results_07_2024_Week_1 and Results_07_2024_Week_2,,,,
+Date Produced:,13-Jul-24,* Removed 4 renamed products,,
+Number of New Products:,120,,,
+Number of Retired Products:,13,,,
+,,,,
+New Products:,,,,
+company,product_type,product_name,insurance_type,discovered_place
+AIA,"TBD (Telemarketing), Life (credit-related)",,Life Insurance,Bank
+AIA,Life (credit-related),Hire Purchase Decreasing Term Assurance,Life Insurance,Bank
+AIA,Life (credit-related),Mortgage Decreasing Term Assurance 2.0 / Overdraft Level Term Assurance,Life Insurance,Bank
+AIA,Investment,PB Alpha Edu,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB CI Care,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB CI Protector,Life Insurance,Bank
+AIA,Critical Illness,PB Cancer Complete,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB Cancer Guard,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB Care PA,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB Care Plus,Life Insurance,Bank
+AIA,Investment,PB Elite Signature,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB Global PA,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB Golden Care,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB Life Plus,Life Insurance,Bank
+AIA,TBD (Telemarketing),PB Lifestyle PA,Life Insurance,Bank
+AIA,Critical Illness,PB Major Illness Care,Life Insurance,Bank
+AIA,Savings,PB Max Advantage,Life Insurance,Bank
+AIA,Savings,PB Pro Saver,Life Insurance,Bank
+AIA,TBD (online),PB Protect CI,Life Insurance,Bank
+AIA,TBD (online),PB Protect Term,Life Insurance,Bank
+AIA,Investment,PB Signature Legacy,Life Insurance,Bank
+AIA,Investment,PB Smart Elite,Life Insurance,Bank
+AIA,Investment,PB Smart Link,Life Insurance,Bank
+AIA,Life (credit-related),PB Term CI,Life Insurance,Bank
+AIA,Investment,PB Venture Shield,Life Insurance,Bank
+AIA,Investment,PB WealthElite Xtra 2,Life Insurance,Bank
+AIA,Investment,empower 2,Life Insurance,Bank
+Berjaya Sompo,Property,Home Safe Plus,General Insurance,Bank
+Berjaya Sompo,Property,Houseowner / Householder,General Insurance,Bank
+Berjaya Sompo,Motor,Purchase Price GAP,General Insurance,Bank
+Berjaya Sompo,Property,Secure Home,General Insurance,Bank
+Berjaya Sompo,Motor,Secure Motor,General Insurance,Bank
+Berjaya Sompo,Travel,Secure TravelSafe,General Insurance,Bank
+Berjaya Sompo,Motor,Secure Warranty,General Insurance,Bank
+Berjaya Sompo,H&P,Snatch Guard Plus,General Insurance,Bank
+Berjaya Sompo,H&P,Snatch Medz+,General Insurance,Bank
+Berjaya Sompo,H&P,Snatch Shield Plus,General Insurance,Bank
+Berjaya Sompo,Travel,Sompo Travel Plus,General Insurance,Bank
+Etiqa,Motor,Car Insurance,General Insurance,Bank
+Etiqa,Motor,Car Takaful,General Takaful,Bank
+Etiqa,Home,Credit Level Term Assurance,General Insurance,Bank
+Etiqa,Home,Credit Level Term Takaful,General Takaful,Bank
+Etiqa,Savings/Investment,Dynamic Invest,Life Insurance,Bank
+Etiqa,H&P,Ezy-Life Secure,General Insurance,Bank
+Etiqa,H&P,Hero15,General Insurance,Bank
+Etiqa,Home,Houseowner/Householder,General Insurance,Bank
+Etiqa,Home,Houseowner/Householder Takaful,General Takaful,Bank
+Etiqa,H&P,Infinite Personal Accident,General Insurance,Bank
+Etiqa,TBD,Key Person Insurance,General Insurance,Bank
+Etiqa,Home,Maxihome Contents,General Insurance,Bank
+Etiqa,Home,Mortgage Reducing Term Takaful,General Takaful,Bank
+Etiqa,H&P,PesonaLady,General Insurance,Bank
+Etiqa,H&P,Premier Cash Refund,General Insurance,Bank
+Etiqa,Savings/Investment,Premier Education Savers,Life Insurance,Bank
+Etiqa,H&P,Premier Lady Savers,General Insurance,Bank
+Etiqa,Savings/Investment,PremierValue Savers,Life Insurance,Bank
+Etiqa,H&P,Privilege PA,General Insurance,Bank
+Etiqa,Savings/Investment,SMART INCOME,Family Takaful,Bank
+Etiqa,H&P,Senior PA,General Insurance,Bank
+Etiqa,Savings/Investment,Smart Cash Xtra,Life Insurance,Bank
+Etiqa,Medical,Smart Family Medic Plan,Insurance,Bank
+Etiqa,Savings/Investment,Smart Flexi Plus,Life Insurance,Bank
+Etiqa,Savings/Investment,Smart Hijrah,Life Insurance,Bank
+Etiqa,H&P,Smart Life Vantage,General Insurance,Bank
+Etiqa,Savings,Smart Saver Xtra,Life Insurance,Bank
+Etiqa,Savings/Investment,Smart Secure,Life Insurance,Bank
+Etiqa,Savings/Investment,Smart Waris,Life Insurance,Bank
+Etiqa,Savings/Investment,Smart Wealth,Life Insurance,Bank
+Etiqa,Motor,Takaful Auto Credit Plan,General Takaful,Bank
+Etiqa,H&P,Takaful Hero 15,General Takaful,Bank
+Etiqa,H&P,Takaful Infinite PA,General Takaful,Bank
+Etiqa,H&P,Takaful PA Plus,General Takaful,Bank
+Etiqa,H&P,Takaful PesonaLady,General Takaful,Bank
+Etiqa,H&P,Takaful Privilege PA,General Takaful,Bank
+Etiqa,Savings/Investment,Takaful Smart Plus,Family Takaful,Bank
+Etiqa,"H&P, Travel",TripCare 360,General Insurance,Bank
+RHB Insurance,Misc.,ATM Shield Insurance,General Insurance,Bank
+RHB Insurance,Travel,Annual Travel Protector Insurance,General Insurance,Bank
+RHB Insurance,Property,Apartments & Condominium Insurance,General Insurance,Bank
+RHB Insurance,Motor,Betterment Contribution Waiver,General Insurance,Bank
+RHB Insurance,Property,Business Machine & Equipment Insurance,General Insurance,Bank
+RHB Insurance,Medical,Cancer Care Insurance,General Insurance,Bank
+RHB Insurance,Medical,Critical Guard Insurance,General Insurance,Bank
+RHB Insurance,H&P,Enhanced Cash Back Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,Property,Fire Biz Supreme Insurance,General Insurance,Bank
+RHB Insurance,Property,Fire Consequential Loss Insurance,General Insurance,Bank
+RHB Insurance,Motor,Full Body Spray Painting,General Insurance,Bank
+RHB Insurance,Property,Home Content Insurance,General Insurance,Bank
+RHB Insurance,Property,Home SmartPLUS Insurance,General Insurance,Bank
+RHB Insurance,Property,Houseowner Plus Insurance,General Insurance,Bank
+RHB Insurance,H&P,Maid Protector,General Insurance,Bank
+RHB Insurance,H&P,Max Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,Medical,MediSure Insurance,General Insurance,Bank
+RHB Insurance,Medical,MediSure Supreme Insurance,General Insurance,Bank
+RHB Insurance,Motor,Motorcyclist Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,Motor,Motorist Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,H&P,My Credit Shield Insurance,General Insurance,Bank
+RHB Insurance,Misc.,My Safe Deposit Box Plus Insurance,General Insurance,Bank
+RHB Insurance,H&P,MyKeluarga Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,H&P,Perlindungang Tenang Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,Motor,Premier Protect Add-on Cover,General Insurance,Bank
+RHB Insurance,H&P,Prestige Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,Motor,Private Car Insurance,General Insurance,Bank
+RHB Insurance,Medical,RHB Critical Shield Insurance,General Insurance,Bank
+RHB Insurance,H&P,Rahmah Personal Accident Insurance,General Insurance,Bank
+RHB Insurance,Motor,Residential Electric Vehicle Charger Protection,General Insurance,Bank
+RHB Insurance,Motor,Road Rescue Elite,General Insurance,Bank
+RHB Insurance,Motor,Special Perils Add-on Covers,General Insurance,Bank
+RHB Insurance,Travel,Travel Protector Plus Insurance,General Insurance,Bank
+RHB Insurance,Motor,Unlimited Breakdown Towing,General Insurance,Bank
+Sun Life,Life (credit-related),Group Amanah Saham Assurance (GASA),Life Insurance,Bank
+Sun Life,Life (credit-related),Group Mortgage Level Term Assurance (MLTA),Life Insurance,Bank
+Sun Life,Life (credit-related),Group Mortgage Reducing Term Assurance (MRTA),Life Insurance,Bank
+Sun Life,Life (credit-related),Group Mortgage Reducing Term Takaful (MRTT),Family Takaful,Bank
+Sun Life,Life (credit-related),Sun Auto Takaful,Family Takaful,Bank
+Takaful Ikhlas,Motor,IKHLAS Private Car Comprehensive Plus Takaful,General Takaful,Bank
+,,,,
+Retired Products:,,,,
+company,product_type,product_name,insurance_type,
+FWD,TBD,Commute Cover+,Life Insurance,
+FWD,TBD,Dengue Cover+,Life Insurance,
+Manulife,Savings,Elite Income 88,Life Insurance,
+Manulife,"Life, Investment",Elite Life Guard 2,Life Insurance,
+Manulife,"Life, Investment",EliteLife Signature Legacy,Life Insurance,
+Manulife,Savings,EliteLife Signature Saver,Life Insurance,
+Manulife,Investment,Signature Heirloom (VII),Life Insurance,
+Prudential,Savings,PruBSN WarisanPlus,Family Takaful,
+Zurich,"TBD (H&P/CI/Medical), Life",Enhance Your Coverage With Our Riders,Family Takaful,

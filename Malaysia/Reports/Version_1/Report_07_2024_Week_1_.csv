@@ -1,0 +1,212 @@
+Comparison between Results_06_2024_Week_5 and Results_07_2024_Week_1,,,
+Date Produced:,6-Jul-24,,
+Number of New Products:,198,Note: This week introduced new code to scrape takaful products,
+Number of Retired Products:,2,(0 if don't count renamed),
+,,,
+New Products:,,,
+company,product_type,product_name,insurance_type
+AmMetLife,Life,Protect-i Budi,Family Takaful
+AmMetLife,Life,i-Am Shield,Family Takaful
+AmMetLife,Life,ProtectSecure-i Murni,Family Takaful
+AmMetLife,Life,i-Am Protect,Family Takaful
+AmMetLife,Life,FlexiCare-i Plus,Family Takaful
+AmMetLife,Life,FlexiSecure-i Link,Family Takaful
+AmMetLife,Life,LegacySecure-i Link,Family Takaful
+AmMetLife,Savings/Investment,Protect-i Budi,Family Takaful
+AmMetLife,Savings/Investment,ProtectSecure-i Murni,Family Takaful
+AmMetLife,Savings/Investment,GoldenCare-i Style,Family Takaful
+AmMetLife,Savings/Investment,GoldenSecure-i Style,Family Takaful
+AmMetLife,Savings/Investment,FlexiCare-i Plus,Family Takaful
+AmMetLife,Savings/Investment,FlexiSecure-i Link,Family Takaful
+AmMetLife,Savings/Investment,LegacySecure-i Link,Family Takaful
+AmMetLife,H&P,FlexiCare-i Plus,Family Takaful
+AmMetLife,H&P,FlexiSecure-i Link,Family Takaful
+AmMetLife,H&P,i-Am Care,Family Takaful
+AmMetLife,Savings/Investment,EduCare-i Link,Family Takaful
+AmMetLife,Savings/Investment,GoldenCare-i Style,Family Takaful
+AmMetLife,Savings/Investment,GoldenSecure-i Style,Family Takaful
+AmMetLife,Savings/Investment,FlexiCare-i Plus,Family Takaful
+AmMetLife,Savings/Investment,FlexiSecure-i Link,Family Takaful
+AmMetLife,TBD,AutoSecure-i,Family Takaful
+AmMetLife,TBD,HomeSecure-i,Family Takaful
+AmMetLife,TBD,FinanceSecure-i,Family Takaful
+AmMetLife,TBD,Group Secure-i,Family Takaful
+AmMetLife,TBD,AutoSecure-i,Family Takaful
+Etiqa,Motor,Motor Takaful,General Takaful
+Etiqa,Motor,Motorcycle Takaful,General Takaful
+Etiqa,Motor,Tesla Ensure Insurance & Takaful,General Takaful
+Etiqa,Motor,FREE EV Home Charger Takaful Coverage Campaign,General Takaful
+Etiqa,Motor,EV Home Charger Takaful Coverage,General Takaful
+Etiqa,Travel,TripCare 360 Takaful,Takaful
+Etiqa,Travel,i-Travel Ezy Takaful,Takaful
+Etiqa,Home,Houseowner and Householder Takaful,Takaful
+Etiqa,Home,MyRumah Takaful,Takaful
+Etiqa,Home,Etiqa Takaful Home Secure,Takaful
+Etiqa,Life,Etiqa Term Takaful Plus,Family Takaful
+Etiqa,Life,Etiqa Term Secure Takaful,Family Takaful
+Etiqa,Life,i-Secure Takaful,Family Takaful
+Etiqa,Life,i-DoubleSecure Takaful,Family Takaful
+Etiqa,Life,Mawaddah II Takaful,Family Takaful
+Etiqa,Life,AafiahCare Takaful,Family Takaful
+Etiqa,Life,Prisma Takaful,Family Takaful
+Etiqa,Savings,Harmoni Takaful,Takaful
+Etiqa,Savings,Karisma Takaful,Takaful
+Etiqa,Investment,Hadiyyah Takafulink,Takaful
+Etiqa,Investment,Mahabbah Takafulink,Takaful
+Etiqa,Investment,ElitePlus Takafulink,Takaful
+Etiqa,H&P,RAHMAH PA Takaful,General Takaful
+Etiqa,H&P,OTO 360 Takaful,General Takaful
+Etiqa,H&P,Takaful Buddy PA,General Takaful
+Etiqa,H&P,RiderCare PA Takaful,General Takaful
+Etiqa,H&P,Takaful Private Car Driver & Passenger,General Takaful
+Etiqa,H&P,Takaful Flexi PA,General Takaful
+Etiqa,H&P,Mega PA Takaful,General Takaful
+Etiqa,H&P,Femina Special Takaful,General Takaful
+Etiqa,H&P,Takaful Cash Care PA,General Takaful
+Etiqa,H&P,Etiqa Critical Care Takaful Plus,Family Takaful
+Etiqa,H&P,OneMedical Takaful,Family Takaful
+Etiqa,H&P,Etiqa Critical Care Takaful,Family Takaful
+Etiqa,H&P,e-CancerCare Takaful,Family Takaful
+Etiqa,H&P,Medical Plus Takaful,Family Takaful
+Etiqa,H&P,Takafulink Medical Plus,Family Takaful
+Etiqa,TBD,Mortgage Reducing Term Takaful (MRTT),Takaful
+Etiqa,TBD,Long Term Fire Takaful (LTFT),Takaful
+FWD,Life,FWD ADD Rider,Family Takaful
+FWD,Life,FWD Accidental Death Benefit Rider,Family Takaful
+FWD,Medical,FWD Big 3,Family Takaful
+FWD,Critical Illness,FWD Big 3 Critical Illness Protection Plan,Family Takaful
+FWD,"Medical, Critical Illness",FWD CI First,Family Takaful
+FWD,Medical,FWD Care Direct,Family Takaful
+FWD,"Medical, Critical Illness",FWD Critical Illness Lite Rider,Family Takaful
+FWD,"Medical, Critical Illness",FWD Critical Illness Rider,Family Takaful
+FWD,"Medical, Critical Illness",FWD Critical Illness Waiver of Contribution Rider,Family Takaful
+FWD,Life,FWD Family First,Family Takaful
+FWD,Life,FWD Future First,Family Takaful
+FWD,Critical Illness,FWD Hajj Rider,Family Takaful
+FWD,Critical Illness,FWD Income First,Family Takaful
+FWD,Savings/Investment,FWD Invest First Plus – Legacy Plan,Family Takaful
+FWD,Savings/Investment,FWD Invest First Plus – Wealth Management Plan,Family Takaful
+FWD,Savings/Investment,FWD Invest First – Education Plan,Family Takaful
+FWD,Medical,FWD Itqan Medik Rider,Family Takaful
+FWD,Life,FWD Kasih,Family Takaful
+FWD,Life,FWD Life First,Family Takaful
+FWD,Savings/Investment,FWD Maqbul Link,Family Takaful
+FWD,Savings/Investment,FWD Max Wealth,Life Insurance
+FWD,Medical,FWD Medical Care+,Family Takaful
+FWD,Medical,FWD Medical Plus Rider,Family Takaful
+FWD,Medical,FWD Medical Rider,Family Takaful
+FWD,Medical,FWD Medsecure Direct,Family Takaful
+FWD,Life,FWD Payor Lite Rider,Family Takaful
+FWD,Life,FWD Payor Rider,Family Takaful
+FWD,Life,FWD Protect Direct,Family Takaful
+FWD,Life,FWD SpecialCare Direct,Family Takaful
+FWD,Medical,FWD SpecialMed 2,Family Takaful
+FWD,"Life, Critical Illness",FWD i-Lindung Term Takaful & Critical Illness Plan,Family Takaful
+Great Eastern,Life,i-Great Nova,Family Takaful
+Great Eastern,Life,i-Great Inspirasi,Family Takaful
+Great Eastern,Life,i-Great Evo,Family Takaful
+Great Eastern,H&P,i-Great MediHarapan,Family Takaful
+Great Eastern,H&P,i-Great Harapan CI10,Family Takaful
+Great Eastern,H&P,i-Great Yaqeen ,Family Takaful
+Great Eastern,H&P,i-Medi Rider & i-Medi ExPlus Rider,Family Takaful
+Great Eastern,H&P,i-Lifetime & i-Early Lifetime Critical Illness Benefit Term Rider,Family Takaful
+Great Eastern,H&P,i-Additional Lifetime & Lifetime Critical Illness Term Rider,Family Takaful
+Great Eastern,Savings/Investment,i-Great Prestij,Family Takaful
+Great Eastern,TBD (Online),MikroSayang,Family Takaful
+Great Eastern,TBD (Online),i-Great Murni 2.0,Family Takaful
+Great Eastern,TBD (Online),i-Great Medi Care,Family Takaful
+Great Eastern,TBD (Online),i-Great Critical Care,Family Takaful
+Hong Leong Assurance,TBD (CI/Medical/H&P),HLA FiT 3 Medi-Income,Life Insurance
+Hong Leong Assurance,Life,HLM Takaful i-Salam,Family Takaful
+Hong Leong Assurance,Life,HLM Takaful Tenang & Tenang 75,Family Takaful
+Hong Leong Assurance,Life,HLM Takaful i-Flexi Protect,Family Takaful
+Hong Leong Assurance,Life,HLM Takaful i-Heritage Protector,Family Takaful
+Hong Leong Assurance,Life,HLM Takaful i-Kudrat,Family Takaful
+Hong Leong Assurance,Life,HLM Takaful i-AcciPlus,Family Takaful
+Hong Leong Assurance,Health & Medical,HLM Takaful i-Critical Care,Family Takaful
+Hong Leong Assurance,Health & Medical,HLM Takaful i-Hospital Care,Family Takaful
+Hong Leong Assurance,Health & Medical,HLM Takaful FiT CI,Family Takaful
+Hong Leong Assurance,Savings/Investment,HLM Takaful i-Jauhar,Family Takaful
+Hong Leong Assurance,Savings/Investment,HLM Takaful i-Care Hasanah Privilege,Family Takaful
+Hong Leong Assurance,Savings/Investment,HLM Takaful Alpha Saver,Family Takaful
+Hong Leong Assurance,Savings/Investment,HLM Takaful Premier Growth,Family Takaful
+Hong Leong Assurance,Savings/Investment,HLM Takaful i-EduSave Genius,Family Takaful
+Prudential,Life,PruBSN Lindung Famili,Family Takaful
+Prudential,Life,PruBSN DamaiGenZ,Family Takaful
+Prudential,Life,PruBSN Damai,Family Takaful
+Prudential,Life,PruBSN Sinar,Family Takaful
+Prudential,Life,PruBSN Impian,Family Takaful
+Prudential,Life,PruBSN Setia,Family Takaful
+Prudential,Life,PruBSN Anggun,Family Takaful
+Prudential,Life,PruBSN Lindung,Family Takaful
+Prudential,Life,PruBSN AnugerahPlus,Family Takaful
+Prudential,Life,Lindungi,Family Takaful
+Prudential,Savings,PruBSN Aspirasi,Family Takaful
+Prudential,Savings,PruBSN WarisanPlus,Family Takaful
+Prudential,Savings,PruBSN WarisanGold,Family Takaful
+Prudential,TBD (CI/H&P/Medical),Cancer Protector,Family Takaful
+Prudential,TBD (CI/H&P/Medical),Crisis Protector,Family Takaful
+Prudential,TBD (CI/H&P/Medical),Crisis Shield,Family Takaful
+Prudential,TBD (CI/H&P/Medical),Health Protector,Family Takaful
+Prudential,TBD (CI/H&P/Medical),Medic TotalCare,Family Takaful
+Prudential,TBD (CI/H&P/Medical),PruBSN Cegah Famili,Family Takaful
+Prudential,TBD (CI/H&P/Medical),PruBSN Cegah,Family Takaful
+Prudential,TBD (CI/H&P/Medical),Cancer Plan,Family Takaful
+Prudential,TBD (CI/H&P/Medical),Medic Plan,Family Takaful
+Sun Life,"Life, H&P",GoTakaful,Family Takaful
+Sun Life,"Life, H&P",Group Mortgage Reducing Term Takaful,Family Takaful
+Sun Life,Life,Group Term Financing Takaful,Family Takaful
+Sun Life,"Life, H&P, Savings",KFH Sun Sinar,Family Takaful
+Sun Life,"Life, H&P",Prime Family Critical Care-i,Family Takaful
+Sun Life,"Life, H&P, Savings",Sinar Baraqah,Family Takaful
+Sun Life,"Life, H&P",Sinar Health Plan,Family Takaful
+Sun Life,"Life, H&P, Investment",SinarLink Aiman,Family Takaful
+Sun Life,Life,Sun AutoTakaful,Family Takaful
+Sun Life,"Life, H&P",Sun Cover-i,Family Takaful
+Sun Life,"Life, H&P, Savings",Sun Enrich-i,Family Takaful
+Sun Life,"Life, H&P, Savings",Sun Hajj,Family Takaful
+Sun Life,"Life, H&P, Investment",Sun Heritage-i,Family Takaful
+Sun Life,"Life, H&P",Sun Inspirasi,Family Takaful
+Sun Life,"Life, Investment",Sun Legacy Shield,Family Takaful
+Sun Life,"Life, H&P",Sun MaxiMed-i,Family Takaful
+Sun Life,"Life, H&P",Sun Medi Mex-i,Family Takaful
+Sun Life,"Life, H&P, Savings, Investment",Sun Prime Link-i,Family Takaful
+Sun Life,"Life, Savings",Sun Secure Saver-i,Family Takaful
+Sun Life,"Life, H&P",Sun Ultimate Coverage-i,Family Takaful
+Sun Life,"Life, H&P",Sun Wealth Protect-i,Family Takaful
+Sun Life,"Life, H&P",Sun eCritical Shield-i,Family Takaful
+Sun Life,"Life, H&P",Sun eMediCare Income-i,Family Takaful
+Sun Life,"Life, H&P",Sun eSsential-i,Family Takaful
+Sun Life,"Life, Investment",SunInvest-i,Family Takaful
+Sun Life,"Life, H&P, Investment",SunLink Istismar Plus,Family Takaful
+Sun Life,"Life, H&P",Takaful Mulia,Family Takaful
+Sun Life,"Life, H&P, Savings",Takaful Suria Plus,Family Takaful
+Sun Life,Life,Xpress Cash Protector-i,Family Takaful
+Zurich,TBD (H&P/CI/Medical),CancerCare,Family Takaful
+Zurich,"TBD (H&P/CI/Medical), Life",Enhance Your Coverage With Our Riders,Family Takaful
+Zurich,Savings,Executive20,Family Takaful
+Zurich,TBD,Fire Takaful,General Takaful
+Zurich,TBD (H&P/CI/Medical),MediAfya,Family Takaful
+Zurich,TBD (H&P/CI/Medical),MediPro,Family Takaful
+Zurich,H&P,Patina2016,General Takaful
+Zurich,H&P,Personal Sentinel V3 Plus Takaful,General Takaful
+Zurich,Life,Takaful Al-Shams,Family Takaful
+Zurich,Life,Takaful Family Hero,Family Takaful
+Zurich,Savings,Takaful Mumtaz,Family Takaful
+Zurich,Life,Takaful ProEssential,Family Takaful
+Zurich,Investment,Takaful ProInvest,Family Takaful
+Zurich,Life,Takaful ProSecure,Family Takaful
+Zurich,Life,Takaful SureCover,Family Takaful
+Zurich,Life,Takaful Term 80,Family Takaful
+Zurich,Investment,Takafulink Single Invest,Family Takaful
+Zurich,Motor,Z-Drive Assist Takaful,General Takaful
+Zurich,Motor,Z-Driver Takaful – Car Takaful Plan,General Takaful
+Zurich,TBD,Z-HomeProtect Takaful,General Takaful
+Zurich,Motor,Z-Rider Takaful – Motorcycle Takaful Plan,General Takaful
+,,,
+Retired Products:,,,
+company,product_type,product_name,
+FWD,Savings/Investment,FWD Max Wealth Campaign,
+Hong Leong Assurance,TBD (CI/Medical/H&P),HLA FiT 3 Medi‑Income,
+,,,
+"Note: These products not retired actually, just renamed",,,
