@@ -79,14 +79,14 @@ for (k in 1:length(BANK_NAMES)){
 
 # Compile all results into one file ----
 
-compilation <- data.frame(matrix(nrow = 0, ncol = 5))
-colnames(compilation) <- c("company", "product_type", "product_name", "product_description", "insurance_type")
+compilation <- data.frame(matrix(nrow = 0, ncol = 6))
+colnames(compilation) <- c("insurer", "bank_name", "product_type", "product_name", "product_description", "insurance_type")
 bank_compilation <- compilation
 
 for (i in 1:length(COMPANY_NAMES)){
 
   if(file.exists(company_results_path[i])){
-    company_results <- cbind(company = names(COMPANY_NAMES[i]), read.csv(company_results_path[i]))
+    company_results <- cbind(bank_name = "-", insurer = names(COMPANY_NAMES[i]), read.csv(company_results_path[i]))
     company_results <- company_results[-nrow(company_results), ] # Remove timestamps
     compilation <- rbind(compilation, company_results)
   }
@@ -100,7 +100,8 @@ for (i in 1:length(COMPANY_NAMES)){
 for (i in 1:length(BANK_NAMES)){
 
   if(file.exists(bank_results_path[i])){
-    bank_results <- read.csv(bank_results_path[i]) # Bank csvs already have 'company'
+    bank_results <- cbind(bank_name = names(BANK_NAMES[i]), read.csv(bank_results_path[i])) # Bank csvs already have 'company'
+    colnames(bank_results)[which(names(bank_results) == "company")] <- "insurer"
     bank_results <- bank_results[-nrow(bank_results), ] 
     bank_compilation <- rbind(bank_compilation, bank_results)
   }
@@ -117,21 +118,21 @@ bank_compilation <- cbind(bank_compilation, discovered_place = "Bank")
 
 compilation <- rbind(compilation, bank_compilation)
 
-compilation <- compilation %>%
-  group_by(company, product_name) %>%
-  summarise(
-    product_type = paste(unique(product_type), collapse = ", "),
-    discovered_place = paste(unique(discovered_place), collapse = ", "),
-    product_description = first(product_description),
-    insurance_type = first(insurance_type)
-  ) %>%
-  ungroup()
+# compilation <- compilation %>%
+#   group_by(company, product_name) %>%
+#   summarise(
+#     product_type = paste(unique(product_type), collapse = ", "),
+#     discovered_place = paste(unique(discovered_place), collapse = ", "),
+#     product_description = first(product_description),
+#     insurance_type = first(insurance_type)
+#   ) %>%
+#   ungroup()
 
-compilation <- compilation[, c("company", "product_type", "product_name", "product_description", "insurance_type", "discovered_place")]
+compilation <- compilation[, c("insurer", "bank_name", "product_type", "product_name", "product_description", "insurance_type", "discovered_place")]
 
 # Write to COMPILATION.csv
 
-compilation_path <- paste0(results_folder_path, "/COMPILATION.csv")
+compilation_path <- paste0(results_folder_path, "/new_COMPILATION.csv")
 
 write.csv(compilation, file = compilation_path, row.names = FALSE)
 
