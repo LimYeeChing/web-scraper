@@ -12,7 +12,7 @@ html <- read_html_live(INSURANCE_PAGE)
 
 product_type <-
   html %>%
-  html_elements(".mb-1.text-secondary-blue-base") %>%
+  html_elements(".body3-bold.mb-1.text-secondary-blue-base") %>%
   html_text2()
 
 product_name <- 
