@@ -7,8 +7,8 @@ PRODUCTS_URL <- "https://www.manulife.com.my/en/individual/products.html"
 
 homepage <- read_html(PRODUCTS_URL)
 
-results <- data.frame(matrix(nrow = 0, ncol = 3))
-colnames(results) <- c("product_type", "product_name", "product_description")
+results <- data.frame(matrix(nrow = 0, ncol = 4))
+colnames(results) <- c("bank_name", "product_type", "product_name", "product_description")
 
 # Scrape product types and URLs from category index page
 
@@ -75,17 +75,20 @@ for (i in 1:nrow(updated_product_types)) {
     product_name <- sapply(split_strings, function(x) x[1])
     product_description <- sapply(split_strings, function(x) x[2])
     
-    results <- rbind(results, data.frame(product_type = updated_product_types$product_type[i], product_name, product_description)) 
+    bank_name <- ifelse(grepl("banca", updated_product_types$url[i], ignore.case = TRUE), "Alliance Bank", "-")
+    
+    results <- rbind(results, data.frame(bank_name = bank_name, product_type = updated_product_types$product_type[i], product_name, product_description)) 
   }
   
 }
 
 # Remove all HTML tags
-product_names <- gsub("<[^>]+>", "", product_names)
+product_names <- gsub("<[^>]+>", "", results$product_name)
 
 # Replace non-breaking spaces and other whitespace characters with a regular space
-product_names <- gsub("[\u00A0]+", " ", product_names) # Remove non-breaking spaces
+product_names <- gsub("\u00A0|&nbsp;", " ", product_names) # Remove non-breaking spaces
 product_names <- gsub("[[:space:]]+", " ", product_names) # Replace multiple spaces with a single space
+product_names <- gsub("\\*", "", product_names) # Remove any asterisks (*)
 
 # Trim any leading or trailing spaces
 product_names <- trimws(product_names)
@@ -114,12 +117,12 @@ results <- results %>%
 # Combine duplicate results with different product_type
 
 results <- results %>%
-  group_by(product_name, product_description) %>%
+  group_by(bank_name, product_name, product_description) %>%
   summarise(product_type = paste(unique(product_type), collapse = ", "))
 
 # Rearrange columns since summarising mixes the order
 
-results <- results[, c(3, 1, 2)]
+results <- results[, c(1, 4, 3, 2)]
 
 # Add insurance_type 
 
@@ -128,7 +131,7 @@ results <- cbind(results, insurance_type = "Life Insurance")
 # Timestamp last row
 
 formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
-results <- rbind(results, c(product_type = "Scraped at", product_name = ":", product_description = formatted_timestamp, insurance_type = ""))
+results <- rbind(results, c(bank_name = "",product_type = "Scraped at", product_name = ":", product_description = formatted_timestamp, insurance_type = ""))
 
 # write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
 
