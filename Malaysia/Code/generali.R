@@ -45,6 +45,8 @@ for (page in category_pages$product_url){
     html_elements(".g-button.primary.small.w-button") %>%
     html_attr("href") %>%
     complete_url()
+  
+  product_url <- product_url[!grepl("NA", product_url)]
 
   product_urls <- rbind(product_urls, data.frame(product_name, product_url))
 }
