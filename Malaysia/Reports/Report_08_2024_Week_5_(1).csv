@@ -1,0 +1,17 @@
+"Comparison between Results_08_2024_Week_4 and Results_08_2024_Week_5",""
+"Date Produced:","30-Aug-2024"
+"Number of New Products:","2"
+"Number of Retired Products:","5"
+
+New Products:
+"insurer","bank_name","product_type","product_name","insurance_type","discovered_place"
+"Etiqa","-","H&P/Medical/CI","MEDIC eDGE Takaful","Family Takaful","Insurer"
+"Zurich","-","TBD (H&P/CI/Medical)","MediAfya+","Family Takaful","Insurer"
+
+Retired Products:
+"insurer","bank_name","product_type","product_name","insurance_type","discovered_place"
+"AmMetLife","-","H&P/Medical","i-Am Care","Family Takaful","Insurer"
+"Great Eastern","-","Savings/Investment","GREAT Multi-Gen Wealth 2","Life Insurance","Insurer"
+"Prudential","Standard Chartered","Life","PRUCancer Safe","Life Insurance","Bank"
+"Prudential","Standard Chartered","Life","PRULife Safe","Life Insurance","Bank"
+"Prudential","Standard Chartered","Life","PRUMedic Safe","Life Insurance","Bank"
