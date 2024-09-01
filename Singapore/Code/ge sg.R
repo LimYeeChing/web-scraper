@@ -3,8 +3,8 @@ library(dplyr)
 
 OUTPUT_FILE_PATH <- "Results/ge sg.csv"
 
-results <- data.frame(matrix(nrow = 0, ncol = 4))
-colnames(results) <- c("product_type", "product_name", "product_description", "insurance_type")
+results <- data.frame(matrix(nrow = 0, ncol = 6))
+colnames(results) <- c("insurer", "bank_name", "product_type", "product_name", "product_description", "insurance_type")
 
 URL_list <- data.frame(product_category = c("Life Insurance", "Health Insurance", "Personal Accident Insurance", "Retirement Income", "Wealth Accumulation", "Travel Insurance", "Car Insurance", "Home Insurance", "Maid Insurance", "Government Schemes", "Prestige Series"),
                        urls = c("https://www.greateasternlife.com/sg/en/personal-insurance/our-products.html?category=corp-site:product-category/life-and-health/life-insurance",
@@ -50,13 +50,8 @@ for (i in 1:nrow(URL_list)){
   
   product_type <- URL_list$product_category[i]
   
-  results <- rbind(results, data.frame(product_type = product_type, product_name = product_name, product_description = product_desc, insurance_type = ""))
+  results <- rbind(results, data.frame(insurer = "Great Eastern", bank_name = "-", product_type = product_type, product_name = product_name, product_description = product_desc, insurance_type = ""))
 }
-
-results <- results %>%
-  group_by(product_name) %>%
-  summarize(product_description = paste(product_description, collapse = " "), 
-            product_type = first(product_type))
 
 results <- results %>%
   mutate(product_name = sub("\\|.*", "", product_name))
@@ -83,9 +78,19 @@ results <- results %>%
     TRUE ~ NA_character_
   ))
 
-results <- results[, c(3, 1, 2, 4)] # Rearrange columns, summarise() changes their order
+results <- results %>%
+  group_by(product_name) %>%
+  summarise(
+    insurer = first(insurer),
+    bank_name = first(bank_name),
+    product_type = first(product_type),
+    product_description = paste(unique(product_description), collapse = ", "),
+    insurance_type = first(insurance_type)
+  )
+
+results <- results[, c(2, 3, 4, 1, 5, 6)] # Rearrange columns, summarise() changes their order
 
 formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
-results <- rbind(results, c("Scraped at", ":", formatted_timestamp, ""))
+results <- rbind(results, c(insurer = "", bank_name = "", product_type = "Scraped at", product_name = ":", product_description = formatted_timestamp, insurance_type = ""))
 
 # write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)

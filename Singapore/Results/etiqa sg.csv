@@ -1,9 +1,9 @@
-"product_type","product_name","product_description","insurance_type"
-"Critical Illness","Cancer Insurance","Lifelong protection against death, total & permanent disability (until age 70) and terminal illness
+"insurer","bank_name","product_type","product_name","product_description","insurance_type"
+"Etiqa","-","Critical Illness","Cancer Insurance","Lifelong protection against death, total & permanent disability (until age 70) and terminal illness
 Flexible premium term from 5, 10, 15 or 20 years
 Up to 4x benefits
 Retirement payout option from age 65","Life Insurance"
-"Savings","Enrich assure","A capital guaranteed endowment plan with lump sum payout upon maturity.
+"Etiqa","-","Savings","Enrich assure","A capital guaranteed endowment plan with lump sum payout upon maturity.
 
 Key benefits
 
@@ -11,7 +11,7 @@ Lump sum payout upon maturity
 Flexible premium term of 3, 5, 10, 15, or 20 years
 Capital guaranteed from year 5 to 15
 No medical check required","Life Insurance"
-"Savings","Enrich flex plus","A capital guaranteed endowment plan that will help you achieve your life goals at the end of 15 years.
+"Etiqa","-","Savings","Enrich flex plus","A capital guaranteed endowment plan that will help you achieve your life goals at the end of 15 years.
 
 Key benefits
 
@@ -19,7 +19,7 @@ Flexible policy term of 15, 24 or 29 years
 Short premium term of 7 years
 Capital guaranteed at the end of 15 years
 No medical check required","Life Insurance"
-"Savings","Enrich goal","A whole life insurance plan designed to provide you with a regular stream of monthly income.
+"Etiqa","-","Savings","Enrich goal","A whole life insurance plan designed to provide you with a regular stream of monthly income.
 
 Key benefits
 
@@ -27,7 +27,7 @@ Lifetime monthly income
 Lump sum payout upon maturity
 Flexible premium term of 3, 5, 10, 15, or 20 years
 No medical check required","Life Insurance"
-"Savings","Enrich income","A capital guaranteed endowment plan with lump sum maturity benefit and a monthly retirement income.
+"Etiqa","-","Savings","Enrich income","A capital guaranteed endowment plan with lump sum maturity benefit and a monthly retirement income.
 
 Key benefits
 
@@ -35,7 +35,7 @@ Lump sum payout upon maturity
 Flexible premium term of 2, 5 or 10 years
 Monthly retirement income for 10 or 20 years
 Capital guaranteed upon reaching your selected retirement age","Life Insurance"
-"Savings","Enrich retirement","A capital guaranteed endowment plan with guaranteed yearly cash benefits and a lump sum maturity payout at the end of 10 years.
+"Etiqa","-","Savings","Enrich retirement","A capital guaranteed endowment plan with guaranteed yearly cash benefits and a lump sum maturity payout at the end of 10 years.
 
 Key benefits
 
@@ -43,7 +43,7 @@ Lump sum payout upon maturity
 Short premium term of 3 years
 Guaranteed yearly cash benefits from the end of year 3
 Capital guaranteed at the end of 10 years","Life Insurance"
-"Savings","Enrich rewards","A capital guaranteed endowment plan that will provide you a lump sum maturity payout at the end of 10 policy years.
+"Etiqa","-","Savings","Enrich rewards","A capital guaranteed endowment plan that will provide you a lump sum maturity payout at the end of 10 policy years.
 
 Key benefits
 
@@ -51,7 +51,7 @@ Lump sum payout upon maturity
 Short premium term of 5 years
 Capital guaranteed at the end of 10 years
 No medical check required","Life Insurance"
-"Savings","Enrich saver","A capital guaranteed endowment plan that will provide you with a lump sum payout at maturity, guaranteed and non-guaranteed yearly cash benefits and the flexibility to start saving from as low as S$125 a month.
+"Etiqa","-","Savings","Enrich saver","A capital guaranteed endowment plan that will provide you with a lump sum payout at maturity, guaranteed and non-guaranteed yearly cash benefits and the flexibility to start saving from as low as S$125 a month.
 
 Key benefits
 
@@ -59,11 +59,11 @@ Choose a premium term from as short as 2 years
 Option to withdraw or accumulate your yearly cash benefit
 Protection for Death and Terminal Illness
 No medical examinations required","Life Insurance"
-"Critical Illness","Essential Cancer Care","Fixed term protection from all stages of cancer, and death
+"Etiqa","-","Critical Illness","Essential Cancer Care","Fixed term protection from all stages of cancer, and death
 Payout of 50% sum insured for early & intermediate stages of cancer
 Payout of 100% sum insured for severe stage cancer
 Monthly payout benefit for severe stage cancer","Life Insurance"
-"Critical Illness","Essential critical secure","Fixed term protection from terminal illness, total and permanent disability and death
+"Etiqa","-","Critical Illness","Essential critical secure","Fixed term protection from terminal illness, total and permanent disability and death
 Flexibility of policy term from 5 years (renewable), 20 years or up to age 65
 Select your preferred sum insured from $50,000 to $2 million
 Option to add on rider for protection against 30 critical illnesses 2
@@ -73,14 +73,14 @@ Option to add on rider for protection against 30 critical illnesses 2
  1Applicable to DIRECT – Etiqa term life II plan only.
 
  ","Life Insurance"
-"Life","Essential term life cover","Affordable, fixed term protection from death or terminal illness
+"Etiqa","-","Life","Essential term life cover","Affordable, fixed term protection from death or terminal illness
 Flexible policy term from 5 years (renewable), 10 years – Until age 86 (every one year interval) or until 100 years old
 Flexibility to increase sum insured, add on riders or convert to whole life plan","Life Insurance"
-"Life","Essential whole life cover","100% payout for all stages of cancer
+"Etiqa","-","Life","Essential whole life cover","100% payout for all stages of cancer
 Choice of sum insured from S$50,000, S$100,000 and S$200,000
 Death payout of S$5,000
 Yearly renewable with 6% savings","Life Insurance"
-"Savings","Esteem eternity II","Grow your wealth for retirement, or seamlessly pass it on from one generation to the next with this whole life insurance plan.
+"Etiqa","-","Savings","Esteem eternity II","Grow your wealth for retirement, or seamlessly pass it on from one generation to the next with this whole life insurance plan.
 
 Lifetime monthly income
 Single premium, lifetime protection
@@ -92,7 +92,7 @@ Hassle-free application
 Product Brochure
 
 Policy Contract","Life Insurance"
-"Savings","Esteem income (USD)","Secure your financial dreams with a lifetime of income and pass on the fruits of your labour to the next generation seamlessly with this whole life insurance plan.
+"Etiqa","-","Savings","Esteem income (USD)","Secure your financial dreams with a lifetime of income and pass on the fruits of your labour to the next generation seamlessly with this whole life insurance plan.
 
 Savings, retirement and guaranteed issuance
 Reliable lifetime income
@@ -104,7 +104,7 @@ Guaranteed and immediate liquidity
 Product Brochure
 
 Policy Contract","Life Insurance"
-"Savings","Esteem income II","Secure a steady stream of income for retirement, or seamlessly pass it on from one generation to the next with this whole life insurance plan.
+"Etiqa","-","Savings","Esteem income II","Secure a steady stream of income for retirement, or seamlessly pass it on from one generation to the next with this whole life insurance plan.
 
 Savings, retirement and guaranteed issuance
 Reliable lifetime income
@@ -116,7 +116,7 @@ Guaranteed and immediate liquidity
 Product Brochure
 
 Policy Contract","Life Insurance"
-"Savings","Esteem legacy II","Grow your wealth and maintain the lifestyle you’ve become accustomed to, while preserving a lasting legacy for your loved ones with this whole life insurance plan.
+"Etiqa","-","Savings","Esteem legacy II","Grow your wealth and maintain the lifestyle you’ve become accustomed to, while preserving a lasting legacy for your loved ones with this whole life insurance plan.
 
 High protection coverage of up to 383% of sum insured
 Single premium, lifetime protection
@@ -128,18 +128,18 @@ Flexibility of changing life insured
 Product Brochure
 
 Policy Contract","Life Insurance"
-"H&P","Etiqa Solitaire Protect","Credit relief up to S$30,000
+"Etiqa","-","H&P","Etiqa Solitaire Protect","Credit relief up to S$30,000
 Receive a lump sum of $3,000 in the event of accidental death due to COVID-19
 Medical expenses reimbursement up to $8,000","Life Insurance"
-"Investment","Invest achiever","A regular premium investment-linked plan with multiple bonuses, and the option to receive a monthly cash payout.
+"Etiqa","-","Investment","Invest achiever","A regular premium investment-linked plan with multiple bonuses, and the option to receive a monthly cash payout.
 
 Key benefits
 
 Multiple bonuses to boost your investment
-Flexible premium term of 3, 5, 10, 15 or 20 years
+Flexible premium term of 3, 5 or 10 years
 Option to receive monthly income
 Free and unlimited fund switching","Life Insurance"
-"Investment","Invest builder","A regular premium investment-linked plan with multiple bonuses to boost your investment.
+"Etiqa","-","Investment","Invest builder","A regular premium investment-linked plan with multiple bonuses to boost your investment.
 
 Key benefits
 
@@ -147,7 +147,7 @@ Multiple bonuses to boost your investment
 Flexible premium term of 3, 5, 10 to 20 years
 Free and unlimited fund switching
 No medical check required","Life Insurance"
-"Investment","Invest flex wealth","A regular premium investment-linked plan that unlocks a world of possibilities, offering you unmatched flexibility and control over your wealth accumulation goals, starting from as low as S$200 per month.
+"Etiqa","-","Investment","Invest flex wealth","A regular premium investment-linked plan that unlocks a world of possibilities, offering you unmatched flexibility and control over your wealth accumulation goals, starting from as low as S$200 per month.
 
 Key benefits
 
@@ -155,13 +155,13 @@ Multiple bonuses to boost your investment
 Flexible premium term of 10, 15 or 20 years
 Free and unlimited fund switching
 No medical check required","Life Insurance"
-"Investment","Invest plus SP","A single premium investment-linked plan with power-up bonuses to boost your investment.
+"Etiqa","-","Investment","Invest plus SP","A single premium investment-linked plan with power-up bonuses to boost your investment.
 
 Bonus units to boost your investment
 Start with just S$10,000
 Free and unlimited fund switching
 No medical check required","Life Insurance"
-"Investment","Invest smart flex","A regular premium investment-linked plan that offers you the flexibility to pursue your investment goals. Starting from just S$200 per month, this plan allows you to diversify your portfolio by investing in reputable funds and provides you with opportunities for potentially higher returns.
+"Etiqa","-","Investment","Invest smart flex","A regular premium investment-linked plan that offers you the flexibility to pursue your investment goals. Starting from just S$200 per month, this plan allows you to diversify your portfolio by investing in reputable funds and provides you with opportunities for potentially higher returns.
 
 Key benefits
 
@@ -169,7 +169,7 @@ Multiple bonuses to boost your investment
 Flexible premium term of 10, 15 or 20 years
 Free and unlimited fund switching
 No medical check required","Life Insurance"
-"Investment","Invest starter","A regular premium investment-linked plan with entry premiums from as low as S$100 a month and low charges to boost your investment.
+"Etiqa","-","Investment","Invest starter","A regular premium investment-linked plan with entry premiums from as low as S$100 a month and low charges to boost your investment.
 
 Key benefits
 
@@ -177,22 +177,22 @@ Multiple rewards to boost your investment
 4 packaged funds with diversified risks
 Free and unlimited fund switching
 No medical check required","Life Insurance"
-"Misc.","Personal Cyber Insurance","Protection against cyber fraud
+"Etiqa","-","Misc.","Personal Cyber Insurance","Protection against cyber fraud
 Protection against extortion
 Coverage for restoration of data
 Coverage for identity theft","General Insurance"
-"Misc.","Pet Insurance","Clinical and surgical illness coverage of up to $15,000
+"Etiqa","-","Misc.","Pet Insurance","Clinical and surgical illness coverage of up to $15,000
 Third party liability coverage of up to $500,000
 Complimentary congenital and hereditary disease coverage
 Multi-pet discount if you insure more than one pet","General Insurance"
-"Motor","Private Car Insurance","Free Add-on: Get up to 30% cash rebate when you Drive Less Save More
+"Etiqa","-","Motor","Private Car Insurance","Free Add-on: Get up to 30% cash rebate when you Drive Less Save More
 Choose from comprehensive, third-party fire and theft, or third-party only coverage
 Repair your vehicle at 25 authorised workshops located conveniently across the island
 Unlimited windscreen cover (with S$100 excess)","General Insurance"
-"Life","Term Life Insurance","Affordable, fixed term protection against 111 critical illness (CI) and mental health conditions of multiple stages
+"Etiqa","-","Life","Term Life Insurance","Affordable, fixed term protection against 111 critical illness (CI) and mental health conditions of multiple stages
 Monthly cash payout upon a severe stage CI claim
 Premium Waiver Benefit for early and intermediate-stage CI","Life Insurance"
-"Savings","Tiq CashSaver","A capital guaranteed endowment plan that will help you achieve your savings goals at the end of 12 years.
+"Etiqa","-","Savings","Tiq CashSaver","A capital guaranteed endowment plan that will help you achieve your savings goals at the end of 12 years.
 
 Key benefits
 
@@ -200,14 +200,11 @@ Flexible policy term of 12, 21 or 26 years
 Short premium term of 7 years
 Capital guaranteed at end of 12 years
 No medical check required","Life Insurance"
-"Home","Tiq Home Insurance","Comprehensive protection for your building, renovation, home contents and more
-Includes 24/7 emergency assistance for locksmith, plumbing, electrical and pest control services
-Emergency cash of up to S$5,000 if your home becomes uninhabitable
-Tailored for HDB, condo, landed property owners and tenants Comprehensive protection for your building, renovation, home contents and more
+"Etiqa","-","Home","Tiq Home Insurance","Comprehensive protection for your building, renovation, home contents and more
 Includes 24/7 emergency assistance for locksmith, plumbing, electrical and pest control services
 Emergency cash of up to S$5,000 if your home becomes uninhabitable
 Tailored for HDB, condo, landed property owners and tenants","General Insurance"
-"Investment","Tiq Invest","A single premium investment-linked plan with a low management fee.
+"Etiqa","-","Investment","Tiq Invest","A single premium investment-linked plan with a low management fee.
 
 Key benefits
 
@@ -215,25 +212,25 @@ Key benefits
 4 packaged funds with diversified risks
 No lock-in period
 Start with just $1,000","Life Insurance"
-"Misc.","Tiq Maid","Personal accident cover for your maid from $60,000
+"Etiqa","-","Misc.","Tiq Maid","Personal accident cover for your maid from $60,000
 Hospitalisation & surgical expenses for your maid with COVID-19 cover add-on
 Repatriation expenses of $10,000","General Insurance"
-"H&P","Tiq Personal Accident","Covers you against unexpected slips and falls, COVID-19, dengue fever, hand, foot and mouth disease and 20 other infectious diseases
+"Etiqa","-","H&P","Tiq Personal Accident","Covers you against unexpected slips and falls, COVID-19, dengue fever, hand, foot and mouth disease and 20 other infectious diseases
 Accidental death and permanent disablement coverage up to $500,000
 Medical expenses reimbursement up to $2,000","Life Insurance"
-"Travel","Tiq Travel Insurance","Key Benefits
+"Etiqa","-","Travel","Tiq Travel Insurance","Key Benefits
 
 Coverage for pre-existing medical conditions
 Overseas medical expenses coverage up to S$1 million
 Automatic payout should your flight be delayed for more than 3 hours
 24-hour worldwide emergency travel support services","General Insurance"
-"Travel","Travel Infinite","Key Benefits
+"Etiqa","-","Travel","Travel Infinite","Key Benefits
 
 Overseas medical expenses coverage up to S$2.5 million
 Trip cancellation benefit up to S$15,000 for your tour packages
 Unlimited coverage for emergency medical evacuation
 24-hour worldwide emergency travel support services","General Insurance"
-"Life","Whole Life Insurance","Lifelong coverage of up to S$200,000 for death, terminal illness and total and permanent disability
+"Etiqa","-","Life","Whole Life Insurance","Lifelong coverage of up to S$200,000 for death, terminal illness and total and permanent disability
 Fixed premium till age 70 or 85
 Option to add on rider for protection against 30 critical illnesses 3
 Pay as little as $6.31 per day, up to age 70 or 85 (at your next birthday)
@@ -241,10 +238,10 @@ Pay as little as $6.31 per day, up to age 70 or 85 (at your next birthday)
  
 
 3 Applicable to Etiqa Direct whole life plans.","Life Insurance"
-"Home","ePROTECT mortgage","Takes care of your remaining mortgage payments should untimely events happen to you
+"Etiqa","-","Home","ePROTECT mortgage","Takes care of your remaining mortgage payments should untimely events happen to you
 Flexible policy term of 6 to 40 years, or up to 75 years old
 Pay only 90% and get covered for 100% of your policy term","General Insurance"
-"Motor","ePROTECT motorcycle","Affordable premium for comprehensive, third-party fire and theft, or third-party only coverage
+"Etiqa","-","Motor","ePROTECT motorcycle","Affordable premium for comprehensive, third-party fire and theft, or third-party only coverage
 Protects against loss, damage, theft and more
 Covers up to $500,000 for loss or damage to third party property","General Insurance"
-"Scraped at",":","2024-08-15 15:22 +08",""
+"","","Scraped at",":","2024-09-01 16:36 +08",""

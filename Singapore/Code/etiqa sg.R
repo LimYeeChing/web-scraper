@@ -5,8 +5,8 @@ OUTPUT_FILE_PATH <- "Results/etiqa sg.csv"
 
 HOMEPAGE_URL <- "https://www.etiqa.com.sg/personal/" 
 
-results <- data.frame(matrix(nrow = 0, ncol = 4))
-colnames(results) <- c("product_type", "product_name", "product_description", "insurance_type")
+results <- data.frame(matrix(nrow = 0, ncol = 6))
+colnames(results) <- c("insurer", "bank_name", "product_type", "product_name", "product_description", "insurance_type")
 
 homepage <- read_html(HOMEPAGE_URL)
 
@@ -45,7 +45,7 @@ for (i in 1:length(urls)){
     html_text2()
   
   if (length(product_name) > 0 && length(product_name) == length(product_description)) {
-    results <- rbind(results, data.frame(product_type = "", product_name = product_name, product_description = product_description, insurance_type = ""))
+    results <- rbind(results, data.frame(insurer = "Etiqa", bank_name = "-", product_type = "", product_name = product_name, product_description = product_description, insurance_type = ""))
   }
 }
 
@@ -67,10 +67,14 @@ results <- results %>%
 results <- results %>%
   group_by(product_name) %>%
   summarise(
-    product_type = first(product_type),
-    product_description = paste(product_description, collapse = " "),
-    insurance_type = first(insurance_type)
+    insurer = first(insurer),
+    bank_name = first(bank_name),
+    product_type = paste(unique(product_type), collapse = ", "),
+    product_description = paste(unique(product_description), collapse = ", "),
+    insurance_type = paste(unique(insurance_type), collapse = ", ")
   )
+
+results <- results[, c(2, 3, 4, 1, 5, 6)] # Rearrange columns, summarise() changes their order
 
 results <- results %>%
   mutate(insurance_type = case_when(
@@ -79,9 +83,7 @@ results <- results %>%
     TRUE ~ NA_character_
   ))
 
-results <- results[, c(2, 1, 3, 4)] # Rearrange columns, summarise() changes their order
-
 formatted_timestamp <- format(Sys.time(), "%Y-%m-%d %H:%M %Z")
-results <- rbind(results, c("Scraped at", ":", formatted_timestamp, ""))
+results <- rbind(results, c(insurer = "", bank_name = "", product_type = "Scraped at", product_name = ":", product_description = formatted_timestamp, insurance_type = ""))
 
 # write.csv(results, file = OUTPUT_FILE_PATH, row.names = FALSE)
