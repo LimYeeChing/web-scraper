@@ -40,6 +40,8 @@ product_types <- product_types %>%
     TRUE ~ product_type
   ))
 
+product_types$url <- gsub("\\?", "", product_types$url)
+
 # Loop through all product types, visiting each type's page and scraping info
 
 results <- data.frame(matrix(nrow = 0, ncol = 3))
