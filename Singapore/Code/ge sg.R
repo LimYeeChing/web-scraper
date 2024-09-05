@@ -37,7 +37,7 @@ for (i in 1:nrow(URL_list)){
   
   for (n in 1:2){
     load_more(html)
-    Sys.sleep(2)
+    Sys.sleep(4)
   }
   
   product_name <- html %>%

@@ -36,13 +36,25 @@ for (i in 1:nrow(product_types)){
   
   html <- read_html(url)
   
-  product_name <- html %>%
+  product_name1 <- html %>%
     html_elements(".cmp-productteaser__title-span.cmp-teaser__titleOrDescription--replaceFromPage") %>%
     html_text2()
   
-  product_desc <- html %>%
+  product_name2 <- html %>%
+    html_elements(".cmp-productTeaserV2__title-span.cmp-teaser__titleOrDescription--replaceFromPage") %>%
+    html_text2()
+  
+  product_name <- c(product_name1, product_name2)
+  
+  product_desc1 <- html %>%
     html_elements(".cmp-productteaser__description.cmp-teaser__titleOrDescription--replaceFromPage") %>%
     html_text2()
+  
+  product_desc2 <- html %>%
+    html_elements(".cmp-productTeaserV2__description") %>%
+    html_text2()
+  
+  product_desc <- c(product_desc1, product_desc2)
   
   product_desc <- sub("\\n.*", "", product_desc)
   

@@ -123,12 +123,12 @@ for (i in 1:nrow(results)) {
   if (this_week_names[i] %in% last_week_names) {
     # Find the corresponding row in last week's data
     last_week_row <- last_week_csv[last_week_names == this_week_names[i], ]
-    
+
     # Fill in the product_type, and insurance_type if they are "To be filled"
     if (results$product_type[i] == "To be filled") {
       results$product_type[i] <- last_week_row$product_type
     }
-    
+
     if (results$insurance_type[i] == "To be filled") {
       results$insurance_type[i] <- last_week_row$insurance_type
     }
