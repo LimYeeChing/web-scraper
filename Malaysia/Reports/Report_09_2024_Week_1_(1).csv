@@ -1,0 +1,20 @@
+Comparison between Results_08_2024_Week_5 and Results_09_2024_Week_1,,,,,
+Date Produced:,6-Sep-24,,,,
+Number of New Products:,4,,,,
+Number of Retired Products:,6,,,,
+,,,,,
+New Products:,,,,,
+insurer,bank_name,product_type,product_name,insurance_type,discovered_place
+AIA,-,Savings/Investment,A-Life Wealth Venture,Life Insurance,Insurer
+AmMetLife,-,H&P,i.Am Health Smart,Life Insurance,Insurer
+Generali,-,H&P,GenMedic,Life Insurance,Insurer
+AIA,Public Bank,Critical Illness,PB Critical Shield,Life Insurance,Bank
+,,,,,
+Retired Products:,,,,,
+insurer,bank_name,product_type,product_name,insurance_type,discovered_place
+AmMetLife,-,H&P,HCC BoostUp + HealthCare Choice (Stand-Alone Medical Plan),Life Insurance,Insurer
+AmMetLife,-,H&P,HealthCare Choice + HCC BoostUp,Life Insurance,Insurer
+AmMetLife,-,H&P,HealthCare Choice II Rider + HCC BoostUp II Rider,Life Insurance,Insurer
+FWD,-,Life,FWD Kasih,Family Takaful,Insurer
+FWD,-,Life,FWD SpecialCare Direct,Family Takaful,Insurer
+AmMetLife,AmBank,Medical,HealthCare Choice + HCC BoostUp,Life Insurance,Bank
