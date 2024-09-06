@@ -55,7 +55,11 @@ for (i in 1:length(product_urls)){
   # c$Page$loadEventFired(timeout = 480000)
   # dummy_html <- c$Runtime$evaluate("document.documentElement.outerHTML")
   # html <- read_html(dummy_html$result$value)
-  html <- read_html(product_urls[i])
+  html <- read_html_live(product_urls[i])
+  
+  for(n in 1:2){
+    Sys.sleep(2)
+  }
 
   product_name <- 
     html %>% 

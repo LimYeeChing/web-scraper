@@ -62,6 +62,15 @@ for (i in 1:length(URL_LIST)){
 
   product_name <- product_name[product_name != "huhu"]
   product_description <- product_description[product_description != "huhu"]
+  
+  #A-Life Wealth Venture has no product_type for now
+  if(length(product_name) != length(product_type)) {
+    # Find the index of "A-Life Wealth Venture"
+    index <- which(product_name == "A-Life Wealth Venture")
+    
+    # Insert "WEALTH & LEGACY PLANNING" at that index in product_type
+    product_type <- append(product_type, "WEALTH & LEGACY PLANNING", after = index - 1)
+  }
 
   # Identify and label insurance types
 
