@@ -4,7 +4,14 @@ COMPANY_NAMES <- c("AIA",
                    "Etiqa",
                    "Great Eastern",
                    "Income",
-                   "Manulife")
+                   "Manulife",
+                   "Prudential",
+                   "Singlife",
+                   "Tokio Marine",
+                   "Sun Life",
+                   "Raffles",
+                   "China Life",
+                   "Transamerica")
 
 BANK_NAMES <- c()
 

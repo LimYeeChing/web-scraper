@@ -14,7 +14,14 @@ COMPANY_NAMES <- c("AIA" = "aia sg",
                    "Great Eastern" = "ge sg",
                    "HSBC" = "hsbc sg",
                    "Income" = "income sg",
-                   "Manulife" = "manulife sg")
+                   "Manulife" = "manulife sg",
+                   "Prudential" = "prudential sg",
+                   "Singlife" = "singlife sg",
+                   "Tokio Marine"= "tokiomarine sg",
+                   "Sun Life" = "sunlife sg",
+                   "Raffles" = "raffles sg",
+                   "China Life" = "chinalife sg",
+                   "Transamerica" = "transamerica sg")
 
 BANK_NAMES <- c()
 
