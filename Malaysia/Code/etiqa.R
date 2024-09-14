@@ -73,6 +73,28 @@ for (i in 1:nrow(product_types)) {
 
 }
 
+securepro <- "https://www.etiqa.com.my/v2/investment-linked-insurance-takaful/securepro"
+
+html <- read_html(securepro)
+
+rider_name <- html %>%
+  html_elements(".text-color") %>%
+  html_text2()
+
+rider_name <- rider_name[grepl("IL Ultimate Health",rider_name)|grepl("IL Lady Care", rider_name)|grepl("IL Infinite Care", rider_name)]
+
+rider_list <- data.frame(rider_name = c("IL Ultimate Health","IL Lady Care","IL Infinite Care"),
+                         rider_type = c("Medical","Critical Illness","Critical Illness"))
+
+for (i in 1:nrow(rider_list)){
+  
+  for (j in 1:length(rider_name)){
+  
+  if (grepl(rider_list$rider_name[i], rider_name[j])){
+    results <- rbind(results, data.frame(product_type = rider_list$rider_type[i], product_name = rider_list$rider_name[i], product_description = ""))
+  }
+  }}
+
 results$product_description <- gsub('StartFragment','', results$product_description)
 results$product_description <- gsub('EndFragment','', results$product_description)
 
@@ -97,6 +119,8 @@ results <- results %>%
     product_type == "Travel" ~ "General", 
     product_type == "Health" ~ "Life",
     product_type == "Education" ~ "Life",
+    product_type == "Medical" ~ "Life",
+    product_type == "Critical Illness" ~ "Life",
     product_type == "Public Servants" ~ "TBD",
     TRUE ~ product_type
   ))
