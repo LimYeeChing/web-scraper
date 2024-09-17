@@ -8,8 +8,13 @@ homepage <- read_html("https://www.agrobank.com.my/product/takaful")
 
 urls <- 
   homepage %>% 
-  html_nodes(".related_pages ul li a") %>%
+  html_nodes(".col-md-2.footer-link ul li a") %>%
   html_attr("href")
+
+start_index <- which(grepl("mobile-atm-service", urls)) + 1
+end_index <- which(grepl("surat-wasiat", urls)) - 1
+
+urls <- urls[start_index:end_index]
 
 # Visit product pages and scrape data points
 
@@ -73,6 +78,12 @@ for (i in 1:length(urls)){
   }
   
 }  
+
+results <- results %>%
+  mutate(product_name = case_when(
+    grepl("Takaful Kasih Plus", product_description) ~ "Takaful Kasih Plus",
+    TRUE ~ product_name 
+  ))
 
 # Manual add skipped PDF file (For now, only Agro Takaful Flexi is a pdf file)
 # results <- rbind(results, data.frame(company = "Syarikat Takaful", product_type = "To be filled", product_name = "Agro Takaful Flexi", product_description = "To your family, you are everything. We understand that securing their lives and
