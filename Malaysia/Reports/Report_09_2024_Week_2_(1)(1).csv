@@ -1,0 +1,12 @@
+"Comparison between Results_09_2024_Week_1 and Results_09_2024_Week_2",""
+"Date Produced:","13-Sep-2024"
+"Number of New Products:","5"
+"Number of Retired Products:","0"
+
+New Products:
+"insurer","bank_name","product_type","product_name","insurance_type","discovered_place"
+"Etiqa","-","Medical","IL Ultimate Health","Life Insurance","Insurer"
+"Etiqa","-","Critical Illness","IL Lady Care","Life Insurance","Insurer"
+"Etiqa","-","Critical Illness","IL Infinite Care","Life Insurance","Insurer"
+"Prudential","-","TBD (CI/H&P/Medical)","Medik Asas","Family Takaful","Insurer"
+"Zurich","-","Savings","Savings Booster","Life Insurance","Insurer"
